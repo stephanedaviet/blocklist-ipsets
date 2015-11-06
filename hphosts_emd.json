@@ -1,9 +1,9 @@
 {
 	"name": "hphosts_emd",
-	"entries": 0,
+	"entries": 16483,
 	"entries_min": 0,
 	"entries_max": 16711,
-	"ips": 0,
+	"ips": 16483,
 	"ips_min": 0,
 	"ips_max": 16711,
 	"ipv": "ipv4",
@@ -12,7 +12,7 @@
 	"aggregation": 0,
 	"started": 1446226287000,
 	"updated": 1446767419000,
-	"processed": 1446832114000,
+	"processed": 1446833427000,
 	"checked": 1446767419000,
 	"clock_skew": 0,
 	"category": "malware",
@@ -22,10 +22,10 @@
 	"source": "http://hosts-file.net/emd.txt",
 	"file": "hphosts_emd.ipset",
 	"history": "hphosts_emd_history.csv",
-	"geolite2": "",
-	"ipdeny": "",
-	"ip2location": "",
-	"comparison": "",
+	"geolite2": "hphosts_emd_geolite2_country.json",
+	"ipdeny": "hphosts_emd_ipdeny_country.json",
+	"ip2location": "hphosts_emd_ip2location_country.json",
+	"comparison": "hphosts_emd_comparison.json",
 	"file_local": "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/hphosts_emd.ipset",
 	"commit_history": "https://github.com/firehol/blocklist-ipsets/commits/master/hphosts_emd.ipset",
 	"license": "unknown",
@@ -36,5 +36,5 @@
 	"poisoning": "unknown",
 	"services": [ "unknown" ],
 	"errors": 0,
-	"version": 11
+	"version": 12
 }
