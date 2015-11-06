@@ -44,25 +44,25 @@
 	{
 		"name": "bi_any_2_30d",
 		"category": "attacks",
-		"ips": 7252,
-		"common": 4
+		"ips": 7481,
+		"common": 3
 	},
 	{
 		"name": "bi_mail_2_30d",
 		"category": "attacks",
-		"ips": 1192,
+		"ips": 1207,
 		"common": 1
 	},
 	{
 		"name": "bi_ssh_2_30d",
 		"category": "attacks",
-		"ips": 5618,
-		"common": 3
+		"ips": 5820,
+		"common": 2
 	},
 	{
 		"name": "bitcoin_blockchain_info_30d",
 		"category": "reputation",
-		"ips": 7851,
+		"ips": 7849,
 		"common": 1
 	},
 	{
@@ -128,7 +128,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 19594,
+		"ips": 19688,
 		"common": 37
 	},
 	{
@@ -296,13 +296,13 @@
 	{
 		"name": "dronebl_anonymizers",
 		"category": "anonymizers",
-		"ips": 175926,
+		"ips": 175940,
 		"common": 33
 	},
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 384536,
+		"ips": 384593,
 		"common": 86
 	},
 	{
@@ -386,13 +386,13 @@
 	{
 		"name": "firehol_abusers_1d",
 		"category": "abuse",
-		"ips": 29167,
+		"ips": 29137,
 		"common": 123
 	},
 	{
 		"name": "firehol_abusers_30d",
 		"category": "abuse",
-		"ips": 247887,
+		"ips": 247849,
 		"common": 572
 	},
 	{
@@ -422,7 +422,7 @@
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591278,
+		"ips": 9591370,
 		"common": 92532
 	},
 	{
@@ -474,12 +474,6 @@
 		"common": 1055
 	},
 	{
-		"name": "hphosts_emd",
-		"category": "malware",
-		"ips": 16683,
-		"common": 208
-	},
-	{
 		"name": "hphosts_exp",
 		"category": "malware",
 		"ips": 350,
@@ -488,8 +482,8 @@
 	{
 		"name": "hphosts_fsa",
 		"category": "reputation",
-		"ips": 7038,
-		"common": 75
+		"ips": 7028,
+		"common": 76
 	},
 	{
 		"name": "hphosts_grm",
@@ -820,6 +814,30 @@
 		"category": "spam",
 		"ips": 893,
 		"common": 2
+	},
+	{
+		"name": "php_dictionary",
+		"category": "spam",
+		"ips": 50,
+		"common": 1
+	},
+	{
+		"name": "php_dictionary_1d",
+		"category": "spam",
+		"ips": 50,
+		"common": 1
+	},
+	{
+		"name": "php_dictionary_30d",
+		"category": "spam",
+		"ips": 1215,
+		"common": 1
+	},
+	{
+		"name": "php_dictionary_7d",
+		"category": "spam",
+		"ips": 343,
+		"common": 1
 	},
 	{
 		"name": "php_harvesters",
