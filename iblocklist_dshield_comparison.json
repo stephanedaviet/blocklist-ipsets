@@ -68,7 +68,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20165,
+		"ips": 20238,
 		"common": 2
 	},
 	{
@@ -140,7 +140,7 @@
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 384179,
+		"ips": 384216,
 		"common": 8
 	},
 	{
@@ -156,27 +156,33 @@
 		"common": 1
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 256
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 83200,
+		"ips": 82688,
 		"common": 256
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1354752,
+		"ips": 1355008,
 		"common": 1280
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 407040,
+		"ips": 406016,
 		"common": 1024
 	},
 	{
 		"name": "dshield_top_1000",
 		"category": "attacks",
-		"ips": 848,
+		"ips": 847,
 		"common": 6
 	},
 	{
@@ -194,25 +200,31 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 84012,
+		"ips": 84005,
 		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 684068008,
+		"common": 256
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 116628,
+		"ips": 116117,
 		"common": 258
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1411956,
+		"ips": 1412213,
 		"common": 1282
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591967,
+		"ips": 9591928,
 		"common": 93
 	},
 	{
@@ -302,7 +314,7 @@
 	{
 		"name": "nt_ssh_7d",
 		"category": "attacks",
-		"ips": 4741,
+		"ips": 4749,
 		"common": 2
 	},
 	{
@@ -362,7 +374,7 @@
 	{
 		"name": "packetmail",
 		"category": "reputation",
-		"ips": 609,
+		"ips": 638,
 		"common": 5
 	},
 	{
