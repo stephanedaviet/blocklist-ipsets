@@ -3,7 +3,7 @@
 		"name": "alienvault_reputation",
 		"category": "reputation",
 		"ips": 200570,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "asprox_c2",
@@ -14,7 +14,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 19907,
+		"ips": 19989,
 		"common": 2
 	},
 	{
@@ -27,13 +27,13 @@
 		"name": "dshield_30d",
 		"category": "attacks",
 		"ips": 1363456,
-		"common": 5
+		"common": 6
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
 		"ips": 409856,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "et_block",
@@ -51,19 +51,19 @@
 		"name": "feodo",
 		"category": "malware",
 		"ips": 235,
-		"common": 25
+		"common": 22
 	},
 	{
 		"name": "firehol_abusers_30d",
 		"category": "abuse",
-		"ips": 248198,
+		"ips": 248220,
 		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 684027562,
-		"common": 84
+		"ips": 684027561,
+		"common": 80
 	},
 	{
 		"name": "firehol_level2",
@@ -74,13 +74,13 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1421029,
-		"common": 84
+		"ips": 1420086,
+		"common": 21
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591615,
+		"ips": 9591685,
 		"common": 2
 	},
 	{
@@ -105,7 +105,7 @@
 		"name": "iblocklist_edu",
 		"category": "organizations",
 		"ips": 227983904,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_level1",
@@ -117,7 +117,7 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 10
+		"common": 9
 	},
 	{
 		"name": "iblocklist_org_microsoft",
@@ -147,13 +147,13 @@
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 8233,
-		"common": 18
+		"common": 15
 	},
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 351485444,
-		"common": 1
+		"common": 3
 	},
 	{
 		"name": "sorbs_noserver",
@@ -162,16 +162,16 @@
 		"common": 1
 	},
 	{
+		"name": "sorbs_web",
+		"category": "spam",
+		"ips": 5662076,
+		"common": 1
+	},
+	{
 		"name": "spamhaus_drop",
 		"category": "reputation",
 		"ips": 22583552,
 		"common": 1
-	},
-	{
-		"name": "sslbl_aggressive",
-		"category": "malware",
-		"ips": 1069,
-		"common": 84
 	},
 	{
 		"name": "stopforumspam",
@@ -201,6 +201,6 @@
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 8436,
-		"common": 18
+		"common": 15
 	}
 ]
