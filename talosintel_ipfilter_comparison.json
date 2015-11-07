@@ -32,7 +32,7 @@
 	{
 		"name": "bambenek_simda",
 		"category": "malware",
-		"ips": 71,
+		"ips": 72,
 		"common": 1
 	},
 	{
@@ -104,43 +104,43 @@
 	{
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
-		"ips": 526,
+		"ips": 532,
 		"common": 1
 	},
 	{
 		"name": "bitcoin_blockchain_info_30d",
 		"category": "reputation",
-		"ips": 7148,
+		"ips": 7149,
 		"common": 10
 	},
 	{
 		"name": "bitcoin_blockchain_info_7d",
 		"category": "reputation",
-		"ips": 1922,
+		"ips": 1924,
 		"common": 4
 	},
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4877,
-		"common": 7
+		"ips": 4853,
+		"common": 6
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 7580,
+		"ips": 7586,
 		"common": 9
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 43565,
+		"ips": 43586,
 		"common": 19
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 17166,
+		"ips": 17175,
 		"common": 13
 	},
 	{
@@ -182,8 +182,8 @@
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 16843,
-		"common": 199
+		"ips": 16797,
+		"common": 194
 	},
 	{
 		"name": "blocklist_de_ssh",
@@ -402,21 +402,27 @@
 		"common": 128
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 1
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 100864,
+		"ips": 101120,
 		"common": 9
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1382912,
+		"ips": 1383936,
 		"common": 135
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 408832,
+		"ips": 410112,
 		"common": 25
 	},
 	{
@@ -476,13 +482,13 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 127340,
-		"common": 240
+		"ips": 127595,
+		"common": 241
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1441502,
+		"ips": 1442524,
 		"common": 9397
 	},
 	{
@@ -848,7 +854,7 @@
 	{
 		"name": "openbl_1d",
 		"category": "attacks",
-		"ips": 207,
+		"ips": 211,
 		"common": 1
 	},
 	{
@@ -1348,6 +1354,12 @@
 		"category": "anonymizers",
 		"ips": 1626,
 		"common": 1109
+	},
+	{
+		"name": "virbl",
+		"category": "spam",
+		"ips": 6,
+		"common": 1
 	},
 	{
 		"name": "voipbl",
