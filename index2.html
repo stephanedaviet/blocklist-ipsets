@@ -231,6 +231,7 @@
 				<tr><th>local&nbsp;copy</th><td id="file_local" data-toggle="popover" rel="popover" data-placement="right" data-original-title="local copy" data-trigger="hover" data-content="The processed, normalized file for this IP list. This is not available when the maintainers do not allow us to re-distribute their content." data-html="true"></td></tr>
 				<tr><th>changesets</th><td id="commit_history" data-toggle="popover" rel="popover" data-placement="right" data-original-title="changesets" data-trigger="hover" data-content="Every time the IP lists are updated, we commit them to a github repository, so we keep all their past revisions. This is not available when the maintainers do not allow us to re-distribute their content." data-html="true"></td></tr>
 				<tr><th>check&nbsp;frequency</th><td id="facts_frequency" data-toggle="popover" rel="popover" data-placement="right" data-original-title="check frequency" data-trigger="hover" data-content="This is the <strong>frequency we check for possible updates of the IP list</strong>. If a file was not updated when we checked (or we couldn't download it for any reason), the next check is executed in half the time given here." data-html="true"></td></tr>
+				<tr><th>average&nbsp;update<br/>frequency</th><td id="facts_average_update" data-toggle="popover" rel="popover" data-placement="right" data-original-title="average update" data-trigger="hover" data-content="The <strong>average frequency</strong> the list is updated by its maintainers. If this is number is very close to the <strong>check frequency</strong>, the list may be updated more frequently than we check." data-html="true"></td></tr>
 				<tr><th>aggregation</th><td id="facts_aggregation" data-toggle="popover" rel="popover" data-placement="right" data-original-title="aggregation" data-trigger="hover" data-content="When this is set, we aggregate several updates of the IP list to one bigger IP list. We use this feature only when the retention policy of the list is too low and we need to know the IPs that pass-through the IP list in larger timeframes." data-html="true"></td></tr>
 				<tr><th>download errors</th><td id="facts_errors" data-toggle="popover" rel="popover" data-placement="right" data-original-title="download errors" data-trigger="hover" data-content="This is the number of consecutive downloads we failed to download the IP list from the maintainer's site. <b>If this is non-zero, we still cannot download the IP list</b> (every successful download zeros this number, every failed increments it)." data-html="true"></td></tr>
 				<tr><th>monitoring since</th><td id="facts_started" data-toggle="popover" rel="popover" data-placement="right" data-original-title="monitoring since" data-trigger="hover" data-content="This is the <strong>time we started monitoring this IP list</strong>. Everything we know about this IP list begins at this date and time." data-html="true"></td></tr>
@@ -1365,8 +1366,10 @@ $(function () {
 			$('#facts_url').html('<a href="' + data.source + '" target="_blank">download source file</a>');
 		else
 			$('#facts_url').html('(not a url)');
-		$('#facts_frequency').html(millisecondsToStr(data.frequency * 60 * 1000));
 		
+		$('#facts_frequency').html(millisecondsToStr(data.frequency * 60 * 1000));
+		$('#facts_average_update').html(millisecondsToStr(data.average_update * 60 * 1000));
+
 		if(data.file_local)
 			$('#file_local').html('<a href="' + data.file_local + '" target="_blank">download from github</a>');
 		else

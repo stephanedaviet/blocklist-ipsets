@@ -13,7 +13,7 @@
 	"started": 1440197422000,
 	"updated": 1446831606000,
 	"processed": 1446831952000,
-	"checked": 1446831606000,
+	"checked": 1446875457000,
 	"clock_skew": 0,
 	"category": "unroutable",
 	"maintainer": "iBlocklist.com",
@@ -23,7 +23,7 @@
 	"file": "iblocklist_cidr_report_bogons.netset",
 	"history": "iblocklist_cidr_report_bogons_history.csv",
 	"geolite2": "iblocklist_cidr_report_bogons_geolite2_country.json",
-	"ipdeny": "",
+	"ipdeny": "iblocklist_cidr_report_bogons_ipdeny_country.json",
 	"ip2location": "iblocklist_cidr_report_bogons_ip2location_country.json",
 	"comparison": "iblocklist_cidr_report_bogons_comparison.json",
 	"file_local": "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/iblocklist_cidr_report_bogons.netset",
@@ -36,5 +36,6 @@
 	"poisoning": "unknown",
 	"services": [ "unknown" ],
 	"errors": 0,
-	"version": 4
+	"version": 4,
+	"average_update": 720
 }
