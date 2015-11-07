@@ -26,7 +26,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20753,
+		"ips": 20829,
 		"common": 1
 	},
 	{
@@ -36,33 +36,51 @@
 		"common": 1
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 1
+	},
+	{
+		"name": "dshield_1d",
+		"category": "attacks",
+		"ips": 100608,
+		"common": 1
+	},
+	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1382144,
-		"common": 6
+		"ips": 1383168,
+		"common": 7
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 408064,
-		"common": 1
+		"ips": 409344,
+		"common": 2
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 681839375,
+		"ips": 681839634,
 		"common": 235
+	},
+	{
+		"name": "firehol_level2",
+		"category": "attacks",
+		"ips": 127234,
+		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1440632,
+		"ips": 1441693,
 		"common": 219
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9592688,
+		"ips": 9592765,
 		"common": 2
 	},
 	{
@@ -206,7 +224,7 @@
 	{
 		"name": "sslbl",
 		"category": "malware",
-		"ips": 80,
+		"ips": 83,
 		"common": 20
 	},
 	{
@@ -230,7 +248,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 9363,
+		"ips": 9362,
 		"common": 180
 	}
 ]
