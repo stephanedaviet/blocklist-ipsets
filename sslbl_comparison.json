@@ -14,19 +14,31 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 19629,
+		"ips": 19539,
 		"common": 2
+	},
+	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 1
+	},
+	{
+		"name": "dshield_1d",
+		"category": "attacks",
+		"ips": 87040,
+		"common": 1
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1372416,
+		"ips": 1373440,
 		"common": 6
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 408064,
+		"ips": 406784,
 		"common": 3
 	},
 	{
@@ -45,24 +57,30 @@
 		"name": "feodo",
 		"category": "malware",
 		"ips": 235,
-		"common": 22
+		"common": 21
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 681839376,
-		"common": 83
+		"common": 82
+	},
+	{
+		"name": "firehol_level2",
+		"category": "attacks",
+		"ips": 116552,
+		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1430593,
-		"common": 83
+		"ips": 1431615,
+		"common": 82
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591268,
+		"ips": 9591178,
 		"common": 2
 	},
 	{
@@ -129,7 +147,7 @@
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 9038,
-		"common": 15
+		"common": 14
 	},
 	{
 		"name": "sorbs_dul",
@@ -159,7 +177,7 @@
 		"name": "sslbl_aggressive",
 		"category": "malware",
 		"ips": 1078,
-		"common": 83
+		"common": 82
 	},
 	{
 		"name": "stopforumspam_180d",
@@ -183,6 +201,6 @@
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 9171,
-		"common": 15
+		"common": 14
 	}
 ]
