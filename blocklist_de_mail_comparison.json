@@ -56,14 +56,14 @@
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 17216,
+		"ips": 17202,
 		"common": 1
 	},
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 23010,
-		"common": 15166
+		"ips": 23003,
+		"common": 15152
 	},
 	{
 		"name": "blocklist_de_apache",
@@ -80,25 +80,25 @@
 	{
 		"name": "blocklist_de_bruteforce",
 		"category": "attacks",
-		"ips": 2564,
+		"ips": 2549,
 		"common": 2
 	},
 	{
 		"name": "blocklist_de_imap",
 		"category": "attacks",
-		"ips": 2181,
-		"common": 2177
+		"ips": 2197,
+		"common": 2190
 	},
 	{
 		"name": "blocklist_de_strongips",
 		"category": "attacks",
-		"ips": 138,
+		"ips": 137,
 		"common": 39
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17709,
+		"ips": 17808,
 		"common": 59
 	},
 	{
@@ -110,19 +110,19 @@
 	{
 		"name": "botscout_1d",
 		"category": "abuse",
-		"ips": 1411,
+		"ips": 1418,
 		"common": 9
 	},
 	{
 		"name": "botscout_30d",
 		"category": "abuse",
-		"ips": 20661,
+		"ips": 20669,
 		"common": 82
 	},
 	{
 		"name": "botscout_7d",
 		"category": "abuse",
-		"ips": 6417,
+		"ips": 6427,
 		"common": 37
 	},
 	{
@@ -134,8 +134,8 @@
 	{
 		"name": "ciarmy",
 		"category": "reputation",
-		"ips": 308,
-		"common": 1
+		"ips": 314,
+		"common": 2
 	},
 	{
 		"name": "cleantalk",
@@ -260,7 +260,7 @@
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 386329,
+		"ips": 386362,
 		"common": 156
 	},
 	{
@@ -272,7 +272,7 @@
 	{
 		"name": "dronebl_irc_drones",
 		"category": "abuse",
-		"ips": 94093,
+		"ips": 94088,
 		"common": 9
 	},
 	{
@@ -282,22 +282,28 @@
 		"common": 40
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 2
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 104448,
-		"common": 7
+		"ips": 105984,
+		"common": 8
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1407488,
+		"ips": 1407744,
 		"common": 84
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 417792,
-		"common": 30
+		"ips": 418560,
+		"common": 31
 	},
 	{
 		"name": "et_block",
@@ -320,7 +326,7 @@
 	{
 		"name": "firehol_abusers_1d",
 		"category": "abuse",
-		"ips": 26927,
+		"ips": 26925,
 		"common": 184
 	},
 	{
@@ -339,30 +345,30 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 681833202,
-		"common": 34
+		"common": 35
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 128289,
-		"common": 15166
+		"ips": 129812,
+		"common": 15152
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1465786,
-		"common": 216
+		"ips": 1466047,
+		"common": 217
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589814,
+		"ips": 9589918,
 		"common": 140
 	},
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 23427,
+		"ips": 23442,
 		"common": 241
 	},
 	{
@@ -596,8 +602,8 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 20058,
-		"common": 420
+		"ips": 19941,
+		"common": 418
 	},
 	{
 		"name": "nt_ssh_7d",
@@ -770,26 +776,26 @@
 	{
 		"name": "proxylists",
 		"category": "anonymizers",
-		"ips": 5139,
-		"common": 62
+		"ips": 5193,
+		"common": 61
 	},
 	{
 		"name": "proxylists_1d",
 		"category": "anonymizers",
-		"ips": 6923,
-		"common": 108
+		"ips": 6891,
+		"common": 103
 	},
 	{
 		"name": "proxylists_30d",
 		"category": "anonymizers",
-		"ips": 16996,
+		"ips": 17020,
 		"common": 137
 	},
 	{
 		"name": "proxylists_7d",
 		"category": "anonymizers",
-		"ips": 10245,
-		"common": 126
+		"ips": 10268,
+		"common": 125
 	},
 	{
 		"name": "proxyrss",
@@ -840,28 +846,22 @@
 		"common": 48
 	},
 	{
-		"name": "proxz",
-		"category": "anonymizers",
-		"ips": 25,
-		"common": 1
-	},
-	{
 		"name": "proxz_1d",
 		"category": "anonymizers",
-		"ips": 206,
-		"common": 7
+		"ips": 188,
+		"common": 4
 	},
 	{
 		"name": "proxz_30d",
 		"category": "anonymizers",
-		"ips": 2631,
+		"ips": 2630,
 		"common": 65
 	},
 	{
 		"name": "proxz_7d",
 		"category": "anonymizers",
-		"ips": 859,
-		"common": 35
+		"ips": 860,
+		"common": 34
 	},
 	{
 		"name": "pushing_inertia_blocklist",
