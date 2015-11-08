@@ -36,10 +36,22 @@
 		"common": 18
 	},
 	{
+		"name": "blocklist_de_apache",
+		"category": "attacks",
+		"ips": 14121,
+		"common": 1
+	},
+	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 1919,
-		"common": 18
+		"ips": 1923,
+		"common": 17
+	},
+	{
+		"name": "blocklist_de_bruteforce",
+		"category": "attacks",
+		"ips": 2835,
+		"common": 1
 	},
 	{
 		"name": "blocklist_de_strongips",
@@ -50,7 +62,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20176,
+		"ips": 20155,
 		"common": 13
 	},
 	{
@@ -242,7 +254,7 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 681839402,
+		"ips": 681839382,
 		"common": 1
 	},
 	{
@@ -254,13 +266,13 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1450683,
+		"ips": 1450718,
 		"common": 23
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9592147,
+		"ips": 9592129,
 		"common": 61
 	},
 	{
@@ -370,6 +382,12 @@
 		"category": "abuse",
 		"ips": 2212,
 		"common": 2
+	},
+	{
+		"name": "nixspam",
+		"category": "spam",
+		"ips": 16014,
+		"common": 1
 	},
 	{
 		"name": "nullsecure",
@@ -728,7 +746,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 9430,
+		"ips": 9465,
 		"common": 15
 	},
 	{
