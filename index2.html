@@ -280,7 +280,7 @@
 			<hr/>
 			<div id="history">
 				<h2>Evolution <small>of <span id="evolution_ipset"></span></small></h2>
-				<p>Each time the IP list is updated, we keep track of its size (both number of entries and number of unique IPs matched).
+				<p>Each time the IP list is changed, modified, or updated we keep track of its size (both number of entries and number of unique IPs matched).
 				Using this information we can detect what the list maintainers do, get an idea of the list trend
 				and its maintainers habbits.
 				</p>
@@ -1468,7 +1468,7 @@ $(function () {
 
 	$.getJSON('all-ipsets.json', function(all) {
 		var now = new Date().getTime();
-		var set_errors = 0;
+		var updated_current_ipset = 0;
 
 		function add_ipset_to_menu(ips) {
 			if(!ips.clock_skew) ips.clock_skew = 0;
@@ -1496,11 +1496,14 @@ $(function () {
 
 			if(ips.ipset == ipset) {
 				html = '' + badge + '&nbsp;&nbsp;<b>' + ips.ipset + '</b><br/>';
-				if(!set_errors) {
+				if(!updated_current_ipset) {
+					$('#facts_checked').html(new Date(ips.checked).toString() + '<br>(' + millisecondsToStr(new Date().getTime() - ips.checked) + ' ago)</br>');
+
 					if(ips.errors == 1) $('#facts_errors').html('could not download it the last time');
 					else if(ips.errors > 1) $('#facts_errors').html('repeatedly fails to download, we tried ' + ips.errors + ' times so far without success');
 					else $('#facts_errors').html('none');
-					set_errors = 1;
+
+					updated_current_ipset = 1;
 				}
 			}
 			else
