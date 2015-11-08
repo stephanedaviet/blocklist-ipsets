@@ -122,7 +122,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="https://github.com/firehol/blocklist-ipsets/wiki">Wiki <span class="label label-danger">new!</span></a>
+					<a href="https://github.com/firehol/blocklist-ipsets/wiki">Wiki <span class="badge progress-bar-danger">new!</span></a>
 				</li>
 				<li class="hidden-xs">
 					<form id="search_form" class="navbar-form navbar-left navbar-input-group " role="search">
@@ -1485,10 +1485,10 @@ $(function () {
 			else badge = '<span class="label label-default" style="padding: 3px; float: left; width: 60px; text-align: center;">older</span>';
 
 			if(ips.errors) {
-				ebadge = '<span class="label label-default" style="padding: 3px; float: right; width: 40px; text-align: center;" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' errors" data-trigger="hover" data-content="<p><b>The IP list is not currently downloadable from the maintainer\'s site</b>.</p><p>We have tried to download it <b><big>' + ips.errors.toLocaleString() + '</big></b> time(s) so far, without success.</p><p>Probably, the maintainer\' site is facing difficulties, or the download takes a long time for some reason (we timeout all IP list downloads at 3 minutes).</p>" data-html="true">errors</span>';
+				ebadge = '<span class="badge progress-bar-default" style="padding: 3px; width: 40px; text-align: center;" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' errors" data-trigger="hover" data-content="<p><b>The IP list is not currently downloadable from the maintainer\'s site</b>.</p><p>We have tried to download it <b><big>' + ips.errors.toLocaleString() + '</big></b> time(s) so far, without success.</p><p>Probably, the maintainer\' site is facing difficulties, or the download takes a long time for some reason (we timeout all IP list downloads at 3 minutes).</p>" data-html="true">errors</span>';
 			}
 			else if((((now - ips.started) / 1000) / 60) < 1440*30) {
-				ebadge = '<span class="label label-success" style="padding: 3px; float: right; width: 40px; text-align: center;" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' is new" data-trigger="hover" data-content="This IP lists has been added to <b>FireHOL IP Lists</b> this month.</p>" data-html="true">new</span>';
+				ebadge = '<span class="badge progress-bar-success" style="padding: 3px; width: 40px; text-align: center;" data-toggle="popover" rel="popover" data-placement="right" data-original-title="' + ips.ipset + ' is new" data-trigger="hover" data-content="This IP lists has been added to <b>FireHOL IP Lists</b> this month.</p>" data-html="true">new</span>';
 			}
 
 			var html;
