@@ -8,8 +8,8 @@
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
-		"ips": 264,
-		"common": 114
+		"ips": 276,
+		"common": 123
 	},
 	{
 		"name": "bambenek_cryptowall",
@@ -30,6 +30,12 @@
 		"common": 1
 	},
 	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 20316,
+		"common": 1
+	},
+	{
 		"name": "cleanmx_viruses",
 		"category": "spam",
 		"ips": 4422,
@@ -44,26 +50,26 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 681839382,
-		"common": 114
+		"ips": 681839651,
+		"common": 123
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1446992,
+		"ips": 1447772,
 		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9592405,
-		"common": 8
+		"ips": 9592277,
+		"common": 9
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42610111,
-		"common": 59
+		"common": 61
 	},
 	{
 		"name": "gofferje_sip",
@@ -81,7 +87,7 @@
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16645,
-		"common": 40
+		"common": 42
 	},
 	{
 		"name": "hphosts_exp",
@@ -93,7 +99,7 @@
 		"name": "hphosts_fsa",
 		"category": "reputation",
 		"ips": 7040,
-		"common": 39
+		"common": 40
 	},
 	{
 		"name": "hphosts_grm",
@@ -117,7 +123,7 @@
 		"name": "hphosts_mmt",
 		"category": "reputation",
 		"ips": 1159,
-		"common": 16
+		"common": 17
 	},
 	{
 		"name": "hphosts_pha",
@@ -141,7 +147,7 @@
 		"name": "iblocklist_ads",
 		"category": "organizations",
 		"ips": 888645,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_bogons",
@@ -150,28 +156,34 @@
 		"common": 4
 	},
 	{
+		"name": "iblocklist_edu",
+		"category": "organizations",
+		"ips": 227983904,
+		"common": 1
+	},
+	{
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
-		"common": 14
+		"common": 16
 	},
 	{
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 5
+		"common": 6
 	},
 	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 17
+		"common": 18
 	},
 	{
 		"name": "iblocklist_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 5
+		"common": 6
 	},
 	{
 		"name": "iblocklist_spyware",
@@ -200,13 +212,13 @@
 	{
 		"name": "stopforumspam_365d",
 		"category": "abuse",
-		"ips": 886408,
+		"ips": 885435,
 		"common": 1
 	},
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 9425,
+		"ips": 9434,
 		"common": 2
 	},
 	{
