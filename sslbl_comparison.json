@@ -14,8 +14,14 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17899,
+		"ips": 17817,
 		"common": 2
+	},
+	{
+		"name": "cruzit_web_attacks",
+		"category": "attacks",
+		"ips": 4766,
+		"common": 1
 	},
 	{
 		"name": "dshield_30d",
@@ -32,26 +38,26 @@
 	{
 		"name": "firehol_abusers_30d",
 		"category": "abuse",
-		"ips": 251177,
+		"ips": 251186,
 		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 681833213,
-		"common": 106
+		"ips": 681833214,
+		"common": 107
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1474408,
-		"common": 106
+		"ips": 1474413,
+		"common": 107
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590065,
-		"common": 3
+		"ips": 9589971,
+		"common": 4
 	},
 	{
 		"name": "firehol_webserver",
@@ -70,6 +76,12 @@
 		"category": "unroutable",
 		"ips": 666661539,
 		"common": 4
+	},
+	{
+		"name": "iblocklist_cruzit_web_attacks",
+		"category": "attacks",
+		"ips": 4761,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_edu",
@@ -117,7 +129,7 @@
 		"name": "packetmail_emerging_ips",
 		"category": "reputation",
 		"ips": 63,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "pushing_inertia_blocklist",
@@ -158,8 +170,8 @@
 	{
 		"name": "sslbl_aggressive",
 		"category": "malware",
-		"ips": 1109,
-		"common": 106
+		"ips": 1110,
+		"common": 107
 	},
 	{
 		"name": "stopforumspam",
