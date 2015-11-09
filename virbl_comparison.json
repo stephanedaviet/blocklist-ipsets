@@ -2,8 +2,14 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17632,
+		"ips": 17712,
 		"common": 2
+	},
+	{
+		"name": "cybercrime",
+		"category": "malware",
+		"ips": 5505,
+		"common": 1
 	},
 	{
 		"name": "dshield_30d",
@@ -14,26 +20,32 @@
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 425472,
+		"ips": 424192,
 		"common": 1
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 123535,
-		"common": 13
+		"ips": 123512,
+		"common": 14
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1474930,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589790,
-		"common": 2
+		"ips": 9589869,
+		"common": 3
+	},
+	{
+		"name": "firehol_webserver",
+		"category": "attacks",
+		"ips": 42610042,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_level2",
@@ -45,12 +57,24 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 358699,
+		"common": 1
+	},
+	{
+		"name": "myip",
+		"category": "abuse",
+		"ips": 2166,
+		"common": 1
+	},
+	{
+		"name": "pushing_inertia_blocklist",
+		"category": "reputation",
+		"ips": 42393736,
 		"common": 1
 	},
 	{
