@@ -14,7 +14,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 18535,
+		"ips": 18443,
 		"common": 1
 	},
 	{
@@ -56,13 +56,13 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1484557,
-		"common": 61
+		"ips": 1484559,
+		"common": 62
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590598,
+		"ips": 9590504,
 		"common": 15
 	},
 	{
@@ -129,7 +129,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 6
+		"common": 4
 	},
 	{
 		"name": "iblocklist_edu",
@@ -141,13 +141,13 @@
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
-		"common": 5
+		"common": 6
 	},
 	{
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "iblocklist_level3",
@@ -180,10 +180,16 @@
 		"common": 1
 	},
 	{
+		"name": "lashback_ubl",
+		"category": "spam",
+		"ips": 354577,
+		"common": 1
+	},
+	{
 		"name": "malc0de",
 		"category": "malware",
 		"ips": 76,
-		"common": 24
+		"common": 23
 	},
 	{
 		"name": "malwaredomainlist",
@@ -195,13 +201,13 @@
 		"name": "openbl_all",
 		"category": "attacks",
 		"ips": 108441,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "packetmail_emerging_ips",
 		"category": "reputation",
 		"ips": 64,
-		"common": 3
+		"common": 6
 	},
 	{
 		"name": "pushing_inertia_blocklist",
