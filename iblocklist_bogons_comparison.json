@@ -26,8 +26,8 @@
 	{
 		"name": "bambenek_matsnu",
 		"category": "malware",
-		"ips": 10,
-		"common": 3
+		"ips": 13,
+		"common": 5
 	},
 	{
 		"name": "bambenek_simda",
@@ -104,7 +104,7 @@
 	{
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
-		"ips": 1246,
+		"ips": 1242,
 		"common": 51
 	},
 	{
@@ -122,19 +122,19 @@
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4739,
-		"common": 181
+		"ips": 4742,
+		"common": 183
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 7459,
-		"common": 230
+		"ips": 7441,
+		"common": 231
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 43127,
+		"ips": 43121,
 		"common": 827
 	},
 	{
@@ -152,13 +152,13 @@
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 12709,
-		"common": 53
+		"ips": 12697,
+		"common": 52
 	},
 	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 1997,
+		"ips": 1998,
 		"common": 47
 	},
 	{
@@ -176,8 +176,8 @@
 	{
 		"name": "blocklist_de_imap",
 		"category": "attacks",
-		"ips": 2002,
-		"common": 43
+		"ips": 1996,
+		"common": 44
 	},
 	{
 		"name": "blocklist_de_mail",
@@ -194,7 +194,7 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 1744,
+		"ips": 1739,
 		"common": 90
 	},
 	{
@@ -404,8 +404,8 @@
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 387326,
-		"common": 2982
+		"ips": 387356,
+		"common": 2983
 	},
 	{
 		"name": "dronebl_autorooting_worms",
@@ -452,19 +452,19 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1424384,
+		"ips": 1423104,
 		"common": 51200
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 427776,
+		"ips": 426496,
 		"common": 14336
 	},
 	{
 		"name": "dshield_top_1000",
 		"category": "attacks",
-		"ips": 848,
+		"ips": 847,
 		"common": 76
 	},
 	{
@@ -524,7 +524,7 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 81764,
+		"ips": 81761,
 		"common": 1826
 	},
 	{
@@ -542,7 +542,7 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1482078,
+		"ips": 1480809,
 		"common": 51910
 	},
 	{
@@ -974,7 +974,7 @@
 	{
 		"name": "packetmail_mail",
 		"category": "reputation",
-		"ips": 151,
+		"ips": 150,
 		"common": 6
 	},
 	{
@@ -1136,25 +1136,25 @@
 	{
 		"name": "proxyspy",
 		"category": "anonymizers",
-		"ips": 298,
+		"ips": 297,
 		"common": 13
 	},
 	{
 		"name": "proxyspy_1d",
 		"category": "anonymizers",
-		"ips": 1008,
+		"ips": 979,
 		"common": 30
 	},
 	{
 		"name": "proxyspy_30d",
 		"category": "anonymizers",
-		"ips": 5720,
+		"ips": 5712,
 		"common": 245
 	},
 	{
 		"name": "proxyspy_7d",
 		"category": "anonymizers",
-		"ips": 2412,
+		"ips": 2405,
 		"common": 90
 	},
 	{
@@ -1286,14 +1286,14 @@
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
-		"ips": 351486701,
+		"ips": 351486686,
 		"common": 511853
 	},
 	{
 		"name": "sorbs_new_spam",
 		"category": "spam",
-		"ips": 8218,
-		"common": 214
+		"ips": 8307,
+		"common": 220
 	},
 	{
 		"name": "sorbs_noserver",
@@ -1304,8 +1304,8 @@
 	{
 		"name": "sorbs_recent_spam",
 		"category": "spam",
-		"ips": 82028,
-		"common": 2105
+		"ips": 82070,
+		"common": 2107
 	},
 	{
 		"name": "sorbs_smtp",
@@ -1316,7 +1316,7 @@
 	{
 		"name": "sorbs_web",
 		"category": "spam",
-		"ips": 5662442,
+		"ips": 5662439,
 		"common": 4154
 	},
 	{
@@ -1382,8 +1382,8 @@
 	{
 		"name": "stopforumspam_1d",
 		"category": "abuse",
-		"ips": 5906,
-		"common": 459
+		"ips": 5874,
+		"common": 453
 	},
 	{
 		"name": "stopforumspam_30d",
@@ -1418,26 +1418,26 @@
 	{
 		"name": "tor_exits",
 		"category": "anonymizers",
-		"ips": 988,
+		"ips": 989,
 		"common": 58
 	},
 	{
 		"name": "tor_exits_1d",
 		"category": "anonymizers",
-		"ips": 1063,
+		"ips": 1061,
 		"common": 58
 	},
 	{
 		"name": "tor_exits_30d",
 		"category": "anonymizers",
-		"ips": 3054,
+		"ips": 3053,
 		"common": 228
 	},
 	{
 		"name": "tor_exits_7d",
 		"category": "anonymizers",
-		"ips": 1573,
-		"common": 145
+		"ips": 1562,
+		"common": 133
 	},
 	{
 		"name": "trustedsec_atif",
