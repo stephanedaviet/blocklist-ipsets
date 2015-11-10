@@ -14,14 +14,14 @@
 	{
 		"name": "bi_any_2_1d",
 		"category": "attacks",
-		"ips": 1524,
+		"ips": 1521,
 		"common": 2
 	},
 	{
 		"name": "bi_any_2_30d",
 		"category": "attacks",
-		"ips": 7535,
-		"common": 15
+		"ips": 7840,
+		"common": 16
 	},
 	{
 		"name": "bi_any_2_7d",
@@ -32,37 +32,43 @@
 	{
 		"name": "bi_http_2_30d",
 		"category": "attacks",
-		"ips": 60,
+		"ips": 61,
 		"common": 11
 	},
 	{
 		"name": "bi_mail_2_30d",
 		"category": "attacks",
-		"ips": 1236,
-		"common": 2
+		"ips": 1252,
+		"common": 3
 	},
 	{
 		"name": "bi_ssh_2_30d",
 		"category": "attacks",
-		"ips": 5851,
+		"ips": 6130,
 		"common": 2
 	},
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 20819,
-		"common": 959
+		"ips": 20790,
+		"common": 956
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 12303,
-		"common": 959
+		"ips": 12298,
+		"common": 954
+	},
+	{
+		"name": "blocklist_de_bots",
+		"category": "attacks",
+		"ips": 2058,
+		"common": 2
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 15326,
+		"ips": 15323,
 		"common": 2
 	},
 	{
@@ -74,8 +80,8 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16608,
-		"common": 318
+		"ips": 16612,
+		"common": 317
 	},
 	{
 		"name": "botscout_1d",
@@ -290,7 +296,7 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 81757,
+		"ips": 81780,
 		"common": 49
 	},
 	{
@@ -302,20 +308,20 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 108479,
-		"common": 959
+		"ips": 108446,
+		"common": 956
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1483589,
+		"ips": 1483603,
 		"common": 65
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589526,
-		"common": 384
+		"ips": 9589530,
+		"common": 383
 	},
 	{
 		"name": "firehol_proxies",
@@ -548,8 +554,8 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 22899,
-		"common": 10
+		"ips": 23003,
+		"common": 11
 	},
 	{
 		"name": "nullsecure",
@@ -914,7 +920,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 8458,
+		"ips": 8466,
 		"common": 7
 	},
 	{
@@ -924,9 +930,15 @@
 		"common": 1
 	},
 	{
+		"name": "xroxy",
+		"category": "anonymizers",
+		"ips": 56,
+		"common": 1
+	},
+	{
 		"name": "xroxy_1d",
 		"category": "anonymizers",
-		"ips": 131,
+		"ips": 138,
 		"common": 1
 	},
 	{
@@ -938,7 +950,7 @@
 	{
 		"name": "xroxy_7d",
 		"category": "anonymizers",
-		"ips": 265,
+		"ips": 262,
 		"common": 1
 	},
 	{

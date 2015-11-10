@@ -14,7 +14,13 @@
 	{
 		"name": "bi_any_2_1d",
 		"category": "attacks",
-		"ips": 1524,
+		"ips": 1521,
+		"common": 3
+	},
+	{
+		"name": "bi_any_2_30d",
+		"category": "attacks",
+		"ips": 7840,
 		"common": 3
 	},
 	{
@@ -22,6 +28,24 @@
 		"category": "attacks",
 		"ips": 4250,
 		"common": 3
+	},
+	{
+		"name": "bi_ftp_2_30d",
+		"category": "attacks",
+		"ips": 387,
+		"common": 1
+	},
+	{
+		"name": "bi_mail_2_30d",
+		"category": "attacks",
+		"ips": 1252,
+		"common": 1
+	},
+	{
+		"name": "bi_ssh_2_30d",
+		"category": "attacks",
+		"ips": 6130,
+		"common": 1
 	},
 	{
 		"name": "bitcoin_nodes",
@@ -50,19 +74,19 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 20819,
+		"ips": 20790,
 		"common": 178
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 12303,
+		"ips": 12298,
 		"common": 24
 	},
 	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 2062,
+		"ips": 2058,
 		"common": 101
 	},
 	{
@@ -74,20 +98,20 @@
 	{
 		"name": "blocklist_de_ftp",
 		"category": "attacks",
-		"ips": 522,
+		"ips": 524,
 		"common": 42
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 15326,
+		"ips": 15323,
 		"common": 11
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16608,
-		"common": 153
+		"ips": 16612,
+		"common": 154
 	},
 	{
 		"name": "bm_tor",
@@ -290,8 +314,8 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 81757,
-		"common": 77
+		"ips": 81780,
+		"common": 78
 	},
 	{
 		"name": "firehol_level1",
@@ -302,20 +326,20 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 108479,
+		"ips": 108446,
 		"common": 182
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1483589,
+		"ips": 1483603,
 		"common": 49
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589526,
-		"common": 320
+		"ips": 9589530,
+		"common": 321
 	},
 	{
 		"name": "firehol_proxies",
@@ -542,7 +566,7 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 22899,
+		"ips": 23003,
 		"common": 25
 	},
 	{
@@ -878,7 +902,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 8458,
+		"ips": 8466,
 		"common": 8
 	},
 	{
