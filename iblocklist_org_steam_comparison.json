@@ -32,13 +32,13 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 20723,
+		"ips": 20726,
 		"common": 1
 	},
 	{
 		"name": "blocklist_de_imap",
 		"category": "attacks",
-		"ips": 1659,
+		"ips": 1660,
 		"common": 1
 	},
 	{
@@ -144,28 +144,40 @@
 		"common": 7
 	},
 	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 81747,
+		"common": 1
+	},
+	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 113469,
+		"ips": 113471,
 		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1484683,
-		"common": 769
+		"ips": 1484719,
+		"common": 770
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590378,
+		"ips": 9590374,
 		"common": 9
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 23543,
+		"common": 1
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
-		"ips": 42610194,
-		"common": 42
+		"ips": 42610236,
+		"common": 43
 	},
 	{
 		"name": "graphiclineweb",
@@ -176,7 +188,7 @@
 	{
 		"name": "haley_ssh",
 		"category": "attacks",
-		"ips": 20372,
+		"ips": 20373,
 		"common": 5
 	},
 	{
@@ -279,6 +291,12 @@
 		"name": "malwaredomainlist",
 		"category": "malware",
 		"ips": 1341,
+		"common": 1
+	},
+	{
+		"name": "maxmind_proxy_fraud",
+		"category": "anonymizers",
+		"ips": 463,
 		"common": 1
 	},
 	{
