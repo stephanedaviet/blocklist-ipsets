@@ -44,20 +44,20 @@
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4516,
-		"common": 4516
+		"ips": 4502,
+		"common": 4502
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 42643,
-		"common": 7230
+		"ips": 42655,
+		"common": 7249
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 16840,
-		"common": 7230
+		"ips": 16848,
+		"common": 7249
 	},
 	{
 		"name": "blocklist_net_ua",
@@ -231,7 +231,7 @@
 		"name": "dshield_30d",
 		"category": "attacks",
 		"ips": 1419776,
-		"common": 97
+		"common": 98
 	},
 	{
 		"name": "dshield_7d",
@@ -291,13 +291,13 @@
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1477725,
-		"common": 110
+		"common": 111
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
 		"ips": 9590460,
-		"common": 12
+		"common": 13
 	},
 	{
 		"name": "firehol_proxies",
@@ -357,7 +357,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 228
+		"common": 231
 	},
 	{
 		"name": "iblocklist_cidr_report_bogons",
@@ -382,6 +382,12 @@
 		"category": "reputation",
 		"ips": 302055424,
 		"common": 3
+	},
+	{
+		"name": "iblocklist_hijacked",
+		"category": "reputation",
+		"ips": 9177856,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_iana_private",
@@ -417,7 +423,7 @@
 		"name": "iblocklist_isp_comcast",
 		"category": "organizations",
 		"ips": 45121536,
-		"common": 458
+		"common": 460
 	},
 	{
 		"name": "iblocklist_isp_embarq",
@@ -603,7 +609,7 @@
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 351278816,
-		"common": 1770
+		"common": 1772
 	},
 	{
 		"name": "sorbs_noserver",
