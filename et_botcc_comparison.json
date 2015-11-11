@@ -44,13 +44,13 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1416960,
-		"common": 21
+		"ips": 1416192,
+		"common": 20
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 419584,
+		"ips": 419072,
 		"common": 3
 	},
 	{
@@ -62,7 +62,7 @@
 	{
 		"name": "et_block",
 		"category": "attacks",
-		"ips": 22527642,
+		"ips": 22527388,
 		"common": 1
 	},
 	{
@@ -92,32 +92,32 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1475637,
-		"common": 21
+		"ips": 1474870,
+		"common": 20
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590522,
+		"ips": 9590512,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42610251,
-		"common": 145
+		"common": 162
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
 		"ips": 1094382,
-		"common": 56
+		"common": 58
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16786,
-		"common": 10
+		"common": 11
 	},
 	{
 		"name": "iblocklist_ads",
@@ -129,13 +129,19 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 10
+		"common": 16
 	},
 	{
 		"name": "iblocklist_edu",
 		"category": "organizations",
 		"ips": 227983904,
 		"common": 11
+	},
+	{
+		"name": "iblocklist_exclusions",
+		"category": "reputation",
+		"ips": 7427,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_hijacked",
@@ -153,19 +159,19 @@
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
-		"common": 33
+		"common": 36
 	},
 	{
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 19
+		"common": 23
 	},
 	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 64
+		"common": 76
 	},
 	{
 		"name": "iblocklist_onion_router",
@@ -183,7 +189,7 @@
 		"name": "iblocklist_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 28
+		"common": 31
 	},
 	{
 		"name": "iblocklist_spamhaus_drop",
@@ -207,7 +213,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42393736,
-		"common": 137
+		"common": 153
 	},
 	{
 		"name": "sorbs_dul",
@@ -222,9 +228,15 @@
 		"common": 1
 	},
 	{
+		"name": "stopforumspam_365d",
+		"category": "abuse",
+		"ips": 883621,
+		"common": 1
+	},
+	{
 		"name": "stopforumspam_toxic",
 		"category": "abuse",
 		"ips": 551511,
-		"common": 4
+		"common": 3
 	}
 ]
