@@ -9,49 +9,49 @@
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
 		"ips": 726,
-		"common": 461
+		"common": 465
 	},
 	{
 		"name": "bitcoin_blockchain_info_30d",
 		"category": "reputation",
-		"ips": 7076,
-		"common": 461
+		"ips": 7074,
+		"common": 465
 	},
 	{
 		"name": "bitcoin_blockchain_info_7d",
 		"category": "reputation",
 		"ips": 1516,
-		"common": 461
+		"common": 465
 	},
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4583,
-		"common": 459
+		"ips": 4587,
+		"common": 461
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 7348,
-		"common": 461
+		"ips": 7342,
+		"common": 465
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 42545,
-		"common": 461
+		"ips": 42534,
+		"common": 465
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 16619,
-		"common": 461
+		"ips": 16631,
+		"common": 465
 	},
 	{
 		"name": "bm_tor",
 		"category": "anonymizers",
 		"ips": 6626,
-		"common": 11
+		"common": 10
 	},
 	{
 		"name": "darklist_de",
@@ -63,7 +63,7 @@
 		"name": "dm_tor",
 		"category": "anonymizers",
 		"ips": 6674,
-		"common": 11
+		"common": 10
 	},
 	{
 		"name": "dronebl_anonymizers",
@@ -74,7 +74,7 @@
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 388613,
+		"ips": 388661,
 		"common": 1
 	},
 	{
@@ -93,31 +93,31 @@
 		"name": "et_tor",
 		"category": "anonymizers",
 		"ips": 6460,
-		"common": 12
+		"common": 11
 	},
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
 		"ips": 82004,
-		"common": 11
+		"common": 10
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1474504,
-		"common": 10
+		"common": 9
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42610282,
-		"common": 74
+		"common": 76
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
 		"ips": 1094383,
-		"common": 21
+		"common": 22
 	},
 	{
 		"name": "graphiclineweb",
@@ -141,7 +141,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 18
+		"common": 17
 	},
 	{
 		"name": "iblocklist_edu",
@@ -165,7 +165,7 @@
 		"name": "iblocklist_isp_comcast",
 		"category": "organizations",
 		"ips": 45121536,
-		"common": 23
+		"common": 24
 	},
 	{
 		"name": "iblocklist_isp_embarq",
@@ -195,7 +195,7 @@
 		"name": "iblocklist_isp_twc",
 		"category": "organizations",
 		"ips": 15015936,
-		"common": 7
+		"common": 6
 	},
 	{
 		"name": "iblocklist_isp_verizon",
@@ -207,25 +207,25 @@
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
-		"common": 11
+		"common": 12
 	},
 	{
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 17
+		"common": 16
 	},
 	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 31
+		"common": 32
 	},
 	{
 		"name": "iblocklist_onion_router",
 		"category": "anonymizers",
 		"ips": 6439,
-		"common": 12
+		"common": 11
 	},
 	{
 		"name": "iblocklist_org_microsoft",
@@ -243,19 +243,13 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42393736,
-		"common": 71
-	},
-	{
-		"name": "snort_ipfilter",
-		"category": "attacks",
-		"ips": 11125,
-		"common": 1
+		"common": 73
 	},
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 351275880,
-		"common": 76
+		"common": 78
 	},
 	{
 		"name": "sorbs_noserver",
@@ -279,36 +273,6 @@
 		"name": "stopforumspam_toxic",
 		"category": "abuse",
 		"ips": 551511,
-		"common": 1
-	},
-	{
-		"name": "talosintel_ipfilter",
-		"category": "attacks",
-		"ips": 12268,
-		"common": 1
-	},
-	{
-		"name": "tor_exits",
-		"category": "anonymizers",
-		"ips": 997,
-		"common": 1
-	},
-	{
-		"name": "tor_exits_1d",
-		"category": "anonymizers",
-		"ips": 1072,
-		"common": 1
-	},
-	{
-		"name": "tor_exits_30d",
-		"category": "anonymizers",
-		"ips": 3068,
-		"common": 1
-	},
-	{
-		"name": "tor_exits_7d",
-		"category": "anonymizers",
-		"ips": 1469,
 		"common": 1
 	}
 ]
