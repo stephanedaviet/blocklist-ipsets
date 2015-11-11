@@ -14,7 +14,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17552,
+		"ips": 17544,
 		"common": 2
 	},
 	{
@@ -62,43 +62,49 @@
 	{
 		"name": "firehol_abusers_30d",
 		"category": "abuse",
-		"ips": 253267,
+		"ips": 253290,
 		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 681727390,
-		"common": 131
+		"ips": 681727392,
+		"common": 133
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 110957,
+		"ips": 110911,
 		"common": 4
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1475462,
+		"ips": 1475634,
 		"common": 131
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590454,
+		"ips": 9590445,
 		"common": 4
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42610285,
-		"common": 12
+		"common": 14
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
 		"ips": 1094382,
+		"common": 2
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 16786,
 		"common": 2
 	},
 	{
@@ -141,12 +147,18 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 9
+		"common": 10
 	},
 	{
 		"name": "iblocklist_org_microsoft",
 		"category": "organizations",
 		"ips": 1848447,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_rangetest",
+		"category": "reputation",
+		"ips": 4346058,
 		"common": 1
 	},
 	{
@@ -164,7 +176,7 @@
 	{
 		"name": "openbl_all",
 		"category": "attacks",
-		"ips": 108537,
+		"ips": 108551,
 		"common": 1
 	},
 	{
@@ -177,7 +189,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42393736,
-		"common": 11
+		"common": 12
 	},
 	{
 		"name": "shunlist",
@@ -248,7 +260,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 10119,
+		"ips": 10294,
 		"common": 21
 	}
 ]
