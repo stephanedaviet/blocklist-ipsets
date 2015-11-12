@@ -2,7 +2,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16982,
+		"ips": 16967,
 		"common": 1
 	},
 	{
@@ -14,26 +14,26 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 105727,
-		"common": 18
+		"ips": 105728,
+		"common": 19
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1466280,
-		"common": 1
+		"ips": 1466025,
+		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589913,
+		"ips": 9589890,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42675794,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "iblocklist_bogons",
@@ -57,18 +57,30 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42459272,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 12492,
+		"common": 2
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 351275865,
+		"common": 1
+	},
+	{
+		"name": "sorbs_noserver",
+		"category": "spam",
+		"ips": 21181534,
 		"common": 1
 	},
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 13277,
-		"common": 1
+		"common": 2
 	}
 ]
