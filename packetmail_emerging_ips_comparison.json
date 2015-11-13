@@ -3,7 +3,7 @@
 		"name": "alienvault_reputation",
 		"category": "reputation",
 		"ips": 207815,
-		"common": 10
+		"common": 11
 	},
 	{
 		"name": "bds_atif",
@@ -44,7 +44,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16643,
+		"ips": 16649,
 		"common": 1
 	},
 	{
@@ -147,7 +147,7 @@
 		"name": "et_block",
 		"category": "attacks",
 		"ips": 22527650,
-		"common": 10
+		"common": 11
 	},
 	{
 		"name": "et_compromised",
@@ -159,7 +159,7 @@
 		"name": "feodo",
 		"category": "malware",
 		"ips": 255,
-		"common": 9
+		"common": 10
 	},
 	{
 		"name": "firehol_abusers_1d",
@@ -177,7 +177,7 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 680864612,
-		"common": 14
+		"common": 15
 	},
 	{
 		"name": "firehol_level2",
@@ -189,24 +189,24 @@
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1454476,
-		"common": 31
+		"common": 33
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589924,
+		"ips": 9589929,
 		"common": 11
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42675790,
-		"common": 22
+		"common": 23
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
-		"ips": 1094388,
+		"ips": 1094389,
 		"common": 4
 	},
 	{
@@ -225,13 +225,13 @@
 		"name": "hphosts_ats",
 		"category": "organizations",
 		"ips": 15406,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16764,
-		"common": 8
+		"common": 9
 	},
 	{
 		"name": "hphosts_exp",
@@ -243,7 +243,7 @@
 		"name": "hphosts_fsa",
 		"category": "reputation",
 		"ips": 7349,
-		"common": 8
+		"common": 9
 	},
 	{
 		"name": "hphosts_grm",
@@ -252,28 +252,34 @@
 		"common": 2
 	},
 	{
+		"name": "hphosts_hfs",
+		"category": "abuse",
+		"ips": 255,
+		"common": 1
+	},
+	{
 		"name": "hphosts_mmt",
 		"category": "reputation",
 		"ips": 1159,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_pha",
 		"category": "reputation",
 		"ips": 831,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_psh",
 		"category": "reputation",
 		"ips": 3803,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_wrz",
 		"category": "reputation",
 		"ips": 859,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_abuse_palevo",
@@ -291,7 +297,7 @@
 		"name": "iblocklist_ads",
 		"category": "organizations",
 		"ips": 888645,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_bogons",
@@ -333,6 +339,12 @@
 		"name": "iblocklist_pedophiles",
 		"category": "reputation",
 		"ips": 875195,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 12972,
 		"common": 1
 	},
 	{
@@ -398,7 +410,7 @@
 	{
 		"name": "packetmail_carisirt",
 		"category": "reputation",
-		"ips": 582,
+		"ips": 584,
 		"common": 1
 	},
 	{
@@ -417,13 +429,13 @@
 		"name": "shunlist",
 		"category": "attacks",
 		"ips": 1167,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 16797,
-		"common": 8
+		"common": 9
 	},
 	{
 		"name": "sslbl",
@@ -447,7 +459,7 @@
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 18261,
-		"common": 8
+		"common": 9
 	},
 	{
 		"name": "voipbl",
@@ -460,6 +472,12 @@
 		"category": "malware",
 		"ips": 46,
 		"common": 7
+	},
+	{
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 13678,
+		"common": 1
 	},
 	{
 		"name": "zeus",
