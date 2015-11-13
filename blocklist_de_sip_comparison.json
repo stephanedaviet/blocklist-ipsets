@@ -45,7 +45,7 @@
 		"name": "blocklist_de",
 		"category": "attacks",
 		"ips": 23126,
-		"common": 55
+		"common": 56
 	},
 	{
 		"name": "blocklist_net_ua",
@@ -68,7 +68,7 @@
 	{
 		"name": "dragon_sshpauth",
 		"category": "attacks",
-		"ips": 676,
+		"ips": 563,
 		"common": 1
 	},
 	{
@@ -80,38 +80,50 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1387264,
-		"common": 24
+		"ips": 1386496,
+		"common": 25
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 417024,
+		"ips": 416000,
 		"common": 19
+	},
+	{
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 22527650,
+		"common": 1
 	},
 	{
 		"name": "et_botcc",
 		"category": "reputation",
-		"ips": 475,
+		"ips": 462,
 		"common": 1
 	},
 	{
 		"name": "et_compromised",
 		"category": "attacks",
-		"ips": 1034,
+		"ips": 1028,
+		"common": 1
+	},
+	{
+		"name": "et_dshield",
+		"category": "attacks",
+		"ips": 5120,
 		"common": 1
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
 		"ips": 110012,
-		"common": 55
+		"common": 56
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1452313,
-		"common": 25
+		"ips": 1451437,
+		"common": 26
 	},
 	{
 		"name": "firehol_level4",
@@ -159,7 +171,7 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_level3",
