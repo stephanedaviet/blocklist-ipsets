@@ -2,14 +2,14 @@
 	{
 		"name": "bambenek_bebloh",
 		"category": "malware",
-		"ips": 4,
+		"ips": 5,
 		"common": 1
 	},
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 181,
-		"common": 20
+		"common": 18
 	},
 	{
 		"name": "bambenek_pykspa",
@@ -36,33 +36,15 @@
 		"common": 2
 	},
 	{
-		"name": "et_block",
-		"category": "attacks",
-		"ips": 22527652,
-		"common": 1
-	},
-	{
-		"name": "et_spamhaus",
-		"category": "attacks",
-		"ips": 22522112,
-		"common": 1
-	},
-	{
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 680619121,
-		"common": 20
-	},
-	{
-		"name": "firehol_level3",
-		"category": "attacks",
-		"ips": 1459043,
-		"common": 1
+		"common": 18
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589541,
+		"ips": 9589583,
 		"common": 2
 	},
 	{
@@ -123,7 +105,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "iblocklist_edu",
@@ -135,12 +117,6 @@
 		"name": "iblocklist_isp_suddenlink",
 		"category": "organizations",
 		"ips": 458752,
-		"common": 1
-	},
-	{
-		"name": "iblocklist_level1",
-		"category": "reputation",
-		"ips": 764928098,
 		"common": 1
 	},
 	{
@@ -156,12 +132,6 @@
 		"common": 4
 	},
 	{
-		"name": "iblocklist_spamhaus_drop",
-		"category": "reputation",
-		"ips": 22515968,
-		"common": 1
-	},
-	{
 		"name": "iblocklist_yoyo_adservers",
 		"category": "organizations",
 		"ips": 12972,
@@ -172,18 +142,6 @@
 		"category": "reputation",
 		"ips": 42459272,
 		"common": 2
-	},
-	{
-		"name": "spamhaus_drop",
-		"category": "reputation",
-		"ips": 22521344,
-		"common": 1
-	},
-	{
-		"name": "sslbl_aggressive",
-		"category": "malware",
-		"ips": 1185,
-		"common": 1
 	},
 	{
 		"name": "yoyo_adservers",
