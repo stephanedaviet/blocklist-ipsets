@@ -9,12 +9,12 @@
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 180,
-		"common": 19
+		"common": 14
 	},
 	{
 		"name": "bambenek_simda",
 		"category": "malware",
-		"ips": 61,
+		"ips": 62,
 		"common": 1
 	},
 	{
@@ -24,46 +24,58 @@
 		"common": 2
 	},
 	{
-		"name": "cta_cryptowall",
-		"category": "malware",
-		"ips": 1229,
-		"common": 2
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 22527652,
+		"common": 1
+	},
+	{
+		"name": "et_spamhaus",
+		"category": "attacks",
+		"ips": 22522112,
+		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680619123,
-		"common": 19
+		"ips": 680619379,
+		"common": 15
+	},
+	{
+		"name": "firehol_level3",
+		"category": "attacks",
+		"ips": 1450793,
+		"common": 1
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589294,
+		"ips": 9589321,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42675953,
-		"common": 7
+		"common": 4
 	},
 	{
 		"name": "hphosts_ats",
 		"category": "organizations",
 		"ips": 15406,
-		"common": 4
+		"common": 2
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16767,
-		"common": 6
+		"common": 4
 	},
 	{
 		"name": "hphosts_fsa",
 		"category": "reputation",
 		"ips": 7349,
-		"common": 4
+		"common": 2
 	},
 	{
 		"name": "hphosts_hfs",
@@ -75,25 +87,25 @@
 		"name": "hphosts_mmt",
 		"category": "reputation",
 		"ips": 1159,
-		"common": 3
+		"common": 1
 	},
 	{
 		"name": "hphosts_pha",
 		"category": "reputation",
 		"ips": 831,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "hphosts_psh",
 		"category": "reputation",
 		"ips": 3953,
-		"common": 4
+		"common": 2
 	},
 	{
 		"name": "hphosts_wrz",
 		"category": "reputation",
 		"ips": 859,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "iblocklist_ads",
@@ -105,7 +117,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_edu",
@@ -123,25 +135,25 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 4
+		"common": 3
 	},
 	{
-		"name": "iblocklist_yoyo_adservers",
-		"category": "organizations",
-		"ips": 12966,
+		"name": "iblocklist_spamhaus_drop",
+		"category": "reputation",
+		"ips": 22515968,
 		"common": 1
 	},
 	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42459272,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "sorbs_dul",
@@ -150,9 +162,15 @@
 		"common": 1
 	},
 	{
-		"name": "yoyo_adservers",
-		"category": "organizations",
-		"ips": 13678,
+		"name": "spamhaus_drop",
+		"category": "reputation",
+		"ips": 22521344,
+		"common": 1
+	},
+	{
+		"name": "sslbl_aggressive",
+		"category": "malware",
+		"ips": 1187,
 		"common": 1
 	}
 ]
