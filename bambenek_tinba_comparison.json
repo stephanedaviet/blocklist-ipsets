@@ -9,7 +9,13 @@
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 178,
-		"common": 13
+		"common": 14
+	},
+	{
+		"name": "bambenek_pykspa",
+		"category": "malware",
+		"ips": 4,
+		"common": 1
 	},
 	{
 		"name": "bambenek_simda",
@@ -30,22 +36,40 @@
 		"common": 2
 	},
 	{
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 22527650,
+		"common": 1
+	},
+	{
+		"name": "et_spamhaus",
+		"category": "attacks",
+		"ips": 22522112,
+		"common": 1
+	},
+	{
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 680864620,
-		"common": 13
+		"common": 15
+	},
+	{
+		"name": "firehol_level3",
+		"category": "attacks",
+		"ips": 1458216,
+		"common": 1
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589812,
+		"ips": 9589805,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42675790,
-		"common": 4
+		"common": 5
 	},
 	{
 		"name": "hphosts_ats",
@@ -57,7 +81,7 @@
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16764,
-		"common": 4
+		"common": 5
 	},
 	{
 		"name": "hphosts_fsa",
@@ -96,10 +120,16 @@
 		"common": 2
 	},
 	{
+		"name": "iblocklist_ads",
+		"category": "organizations",
+		"ips": 888645,
+		"common": 1
+	},
+	{
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_edu",
@@ -111,13 +141,19 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
 		"common": 3
+	},
+	{
+		"name": "iblocklist_spamhaus_drop",
+		"category": "reputation",
+		"ips": 22521344,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_yoyo_adservers",
@@ -130,6 +166,18 @@
 		"category": "reputation",
 		"ips": 42459272,
 		"common": 2
+	},
+	{
+		"name": "spamhaus_drop",
+		"category": "reputation",
+		"ips": 22521344,
+		"common": 1
+	},
+	{
+		"name": "sslbl_aggressive",
+		"category": "malware",
+		"ips": 1180,
+		"common": 1
 	},
 	{
 		"name": "yoyo_adservers",
