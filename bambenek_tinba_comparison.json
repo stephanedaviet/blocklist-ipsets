@@ -2,14 +2,14 @@
 	{
 		"name": "bambenek_bebloh",
 		"category": "malware",
-		"ips": 5,
+		"ips": 4,
 		"common": 1
 	},
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 186,
-		"common": 15
+		"common": 12
 	},
 	{
 		"name": "bambenek_simda",
@@ -27,43 +27,43 @@
 		"name": "cta_cryptowall",
 		"category": "malware",
 		"ips": 1229,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 680864628,
-		"common": 15
+		"common": 13
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589837,
+		"ips": 9589895,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42675790,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_ats",
 		"category": "organizations",
 		"ips": 15406,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16764,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_fsa",
 		"category": "reputation",
 		"ips": 7349,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_hfs",
@@ -75,7 +75,7 @@
 		"name": "hphosts_mmt",
 		"category": "reputation",
 		"ips": 1159,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_pha",
@@ -87,19 +87,19 @@
 		"name": "hphosts_psh",
 		"category": "reputation",
 		"ips": 3965,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "hphosts_wrz",
 		"category": "reputation",
 		"ips": 859,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "iblocklist_edu",
@@ -111,7 +111,7 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_level3",
@@ -120,15 +120,21 @@
 		"common": 3
 	},
 	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 12972,
+		"common": 1
+	},
+	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42459272,
 		"common": 2
 	},
 	{
-		"name": "sorbs_dul",
-		"category": "spam",
-		"ips": 351378185,
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 13678,
 		"common": 1
 	}
 ]
