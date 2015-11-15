@@ -26,13 +26,25 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 15179,
+		"ips": 15096,
 		"common": 1
 	},
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
 		"ips": 391460,
+		"common": 1
+	},
+	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 1
+	},
+	{
+		"name": "dshield_1d",
+		"category": "attacks",
+		"ips": 97024,
 		"common": 1
 	},
 	{
@@ -44,7 +56,7 @@
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 429312,
+		"ips": 429824,
 		"common": 2
 	},
 	{
@@ -56,19 +68,25 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680619368,
+		"ips": 680619367,
 		"common": 257
+	},
+	{
+		"name": "firehol_level2",
+		"category": "attacks",
+		"ips": 124834,
+		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1452350,
+		"ips": 1452539,
 		"common": 240
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588534,
+		"ips": 9588452,
 		"common": 2
 	},
 	{
@@ -236,7 +254,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 12820,
+		"ips": 12927,
 		"common": 196
 	}
 ]
