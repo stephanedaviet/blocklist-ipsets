@@ -32,13 +32,13 @@
 	{
 		"name": "bambenek_simda",
 		"category": "malware",
-		"ips": 62,
+		"ips": 61,
 		"common": 1
 	},
 	{
 		"name": "bambenek_suppobox",
 		"category": "malware",
-		"ips": 61,
+		"ips": 85,
 		"common": 2
 	},
 	{
@@ -146,19 +146,19 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 24879,
+		"ips": 24886,
 		"common": 455
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 14966,
+		"ips": 14981,
 		"common": 165
 	},
 	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 2149,
+		"ips": 2153,
 		"common": 58
 	},
 	{
@@ -194,7 +194,7 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 1516,
+		"ips": 1521,
 		"common": 81
 	},
 	{
@@ -206,8 +206,8 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 15291,
-		"common": 710
+		"ips": 15297,
+		"common": 712
 	},
 	{
 		"name": "bm_tor",
@@ -444,6 +444,12 @@
 		"common": 161
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 256
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
 		"ips": 97024,
@@ -452,13 +458,13 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1389568,
+		"ips": 1390848,
 		"common": 49664
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 433664,
+		"ips": 432896,
 		"common": 16384
 	},
 	{
@@ -530,26 +536,26 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680619381,
+		"ips": 680619125,
 		"common": 601085706
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 122195,
+		"ips": 122203,
 		"common": 4775
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1452122,
+		"ips": 1453400,
 		"common": 50477
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588689,
-		"common": 55317
+		"ips": 9588693,
+		"common": 55319
 	},
 	{
 		"name": "firehol_proxies",
@@ -896,8 +902,8 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 16701,
-		"common": 569
+		"ips": 16552,
+		"common": 567
 	},
 	{
 		"name": "nt_malware_http",
@@ -1400,8 +1406,8 @@
 	{
 		"name": "stopforumspam_30d",
 		"category": "abuse",
-		"ips": 71723,
-		"common": 5512
+		"ips": 71268,
+		"common": 5496
 	},
 	{
 		"name": "stopforumspam_365d",
