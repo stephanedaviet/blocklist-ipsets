@@ -1,26 +1,50 @@
 [
 	{
+		"name": "alienvault_reputation",
+		"category": "reputation",
+		"ips": 201973,
+		"common": 1
+	},
+	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 15307,
+		"ips": 15302,
 		"common": 2
+	},
+	{
+		"name": "cta_cryptowall",
+		"category": "malware",
+		"ips": 1229,
+		"common": 1
+	},
+	{
+		"name": "dshield_30d",
+		"category": "attacks",
+		"ips": 1388288,
+		"common": 1
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 680611695,
+		"common": 1
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 126343,
-		"common": 11
+		"ips": 126346,
+		"common": 12
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1451454,
-		"common": 2
+		"ips": 1451455,
+		"common": 3
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588599,
+		"ips": 9588595,
 		"common": 2
 	},
 	{
@@ -69,7 +93,7 @@
 		"name": "sorbs_recent_spam",
 		"category": "spam",
 		"ips": 82900,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "talosintel_ipfilter",
