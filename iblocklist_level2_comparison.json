@@ -122,49 +122,49 @@
 	{
 		"name": "bitcoin_blockchain_info",
 		"category": "reputation",
-		"ips": 446,
+		"ips": 445,
 		"common": 14
 	},
 	{
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
-		"ips": 563,
+		"ips": 561,
 		"common": 17
 	},
 	{
 		"name": "bitcoin_blockchain_info_30d",
 		"category": "reputation",
-		"ips": 6198,
+		"ips": 6197,
 		"common": 178
 	},
 	{
 		"name": "bitcoin_blockchain_info_7d",
 		"category": "reputation",
-		"ips": 1726,
+		"ips": 1724,
 		"common": 61
 	},
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4405,
-		"common": 159
+		"ips": 4401,
+		"common": 158
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 7055,
-		"common": 194
+		"ips": 7043,
+		"common": 191
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 41138,
+		"ips": 41135,
 		"common": 482
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 15232,
+		"ips": 15224,
 		"common": 279
 	},
 	{
@@ -176,7 +176,7 @@
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 18691,
+		"ips": 18681,
 		"common": 1247
 	},
 	{
@@ -194,7 +194,7 @@
 	{
 		"name": "blocklist_de_ftp",
 		"category": "attacks",
-		"ips": 482,
+		"ips": 478,
 		"common": 101
 	},
 	{
@@ -236,32 +236,32 @@
 	{
 		"name": "bm_tor",
 		"category": "anonymizers",
-		"ips": 6516,
-		"common": 229
+		"ips": 6535,
+		"common": 228
 	},
 	{
 		"name": "botscout",
 		"category": "abuse",
-		"ips": 62,
-		"common": 2
+		"ips": 60,
+		"common": 1
 	},
 	{
 		"name": "botscout_1d",
 		"category": "abuse",
-		"ips": 1258,
-		"common": 37
+		"ips": 1265,
+		"common": 34
 	},
 	{
 		"name": "botscout_30d",
 		"category": "abuse",
-		"ips": 20331,
+		"ips": 20342,
 		"common": 543
 	},
 	{
 		"name": "botscout_7d",
 		"category": "abuse",
-		"ips": 6062,
-		"common": 174
+		"ips": 6066,
+		"common": 173
 	},
 	{
 		"name": "bruteforceblocker",
@@ -404,8 +404,8 @@
 	{
 		"name": "dm_tor",
 		"category": "anonymizers",
-		"ips": 6532,
-		"common": 230
+		"ips": 6531,
+		"common": 228
 	},
 	{
 		"name": "dragon_http",
@@ -548,8 +548,8 @@
 	{
 		"name": "firehol_abusers_1d",
 		"category": "abuse",
-		"ips": 27926,
-		"common": 800
+		"ips": 27928,
+		"common": 799
 	},
 	{
 		"name": "firehol_abusers_30d",
@@ -560,7 +560,7 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 80957,
+		"ips": 80915,
 		"common": 3023
 	},
 	{
@@ -572,8 +572,8 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 124660,
-		"common": 8665
+		"ips": 124665,
+		"common": 8666
 	},
 	{
 		"name": "firehol_level3",
@@ -584,7 +584,7 @@
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588071,
+		"ips": 9588082,
 		"common": 2536995
 	},
 	{
@@ -620,8 +620,8 @@
 	{
 		"name": "greensnow",
 		"category": "attacks",
-		"ips": 1147,
-		"common": 103
+		"ips": 1155,
+		"common": 106
 	},
 	{
 		"name": "haley_ssh",
@@ -1256,26 +1256,26 @@
 	{
 		"name": "proxylists",
 		"category": "anonymizers",
-		"ips": 4847,
-		"common": 94
+		"ips": 4812,
+		"common": 98
 	},
 	{
 		"name": "proxylists_1d",
 		"category": "anonymizers",
-		"ips": 6858,
-		"common": 208
+		"ips": 6914,
+		"common": 210
 	},
 	{
 		"name": "proxylists_30d",
 		"category": "anonymizers",
-		"ips": 16876,
+		"ips": 16885,
 		"common": 605
 	},
 	{
 		"name": "proxylists_7d",
 		"category": "anonymizers",
-		"ips": 9965,
-		"common": 354
+		"ips": 9945,
+		"common": 350
 	},
 	{
 		"name": "proxyrss",
@@ -1326,21 +1326,27 @@
 		"common": 130
 	},
 	{
+		"name": "proxz",
+		"category": "anonymizers",
+		"ips": 27,
+		"common": 2
+	},
+	{
 		"name": "proxz_1d",
 		"category": "anonymizers",
 		"ips": 211,
-		"common": 9
+		"common": 8
 	},
 	{
 		"name": "proxz_30d",
 		"category": "anonymizers",
-		"ips": 2617,
-		"common": 154
+		"ips": 2623,
+		"common": 155
 	},
 	{
 		"name": "proxz_7d",
 		"category": "anonymizers",
-		"ips": 887,
+		"ips": 886,
 		"common": 49
 	},
 	{
@@ -1514,7 +1520,7 @@
 	{
 		"name": "sslbl_aggressive",
 		"category": "malware",
-		"ips": 1199,
+		"ips": 1200,
 		"common": 19
 	},
 	{
