@@ -1,32 +1,38 @@
 [
 	{
+		"name": "alienvault_reputation",
+		"category": "reputation",
+		"ips": 206582,
+		"common": 1
+	},
+	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16236,
-		"common": 5
+		"ips": 16227,
+		"common": 6
 	},
 	{
 		"name": "cleantalk_30d",
 		"category": "abuse",
-		"ips": 75779,
+		"ips": 75820,
 		"common": 1
 	},
 	{
 		"name": "cleantalk_7d",
 		"category": "abuse",
-		"ips": 49357,
+		"ips": 49351,
 		"common": 1
 	},
 	{
 		"name": "cleantalk_updated_30d",
 		"category": "abuse",
-		"ips": 62680,
+		"ips": 62708,
 		"common": 1
 	},
 	{
 		"name": "cleantalk_updated_7d",
 		"category": "abuse",
-		"ips": 43797,
+		"ips": 43796,
 		"common": 1
 	},
 	{
@@ -38,20 +44,26 @@
 	{
 		"name": "firehol_abusers_30d",
 		"category": "abuse",
-		"ips": 253424,
+		"ips": 253457,
 		"common": 1
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 125665,
-		"common": 23
+		"ips": 124148,
+		"common": 27
+	},
+	{
+		"name": "firehol_level3",
+		"category": "attacks",
+		"ips": 1459024,
+		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588221,
-		"common": 6
+		"ips": 9588210,
+		"common": 7
 	},
 	{
 		"name": "firehol_webserver",
@@ -90,10 +102,16 @@
 		"common": 2
 	},
 	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 348710251,
+		"common": 1
+	},
+	{
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "iblocklist_org_microsoft",
@@ -105,13 +123,25 @@
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 341321,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42673288,
 		"common": 4
+	},
+	{
+		"name": "shunlist",
+		"category": "attacks",
+		"ips": 1176,
+		"common": 1
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 12121,
+		"common": 1
 	},
 	{
 		"name": "sorbs_recent_spam",
@@ -135,6 +165,12 @@
 		"name": "stopforumspam_365d",
 		"category": "abuse",
 		"ips": 879482,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 12562,
 		"common": 1
 	}
 ]
