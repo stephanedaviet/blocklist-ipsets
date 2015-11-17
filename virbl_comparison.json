@@ -20,7 +20,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17001,
+		"ips": 17108,
 		"common": 3
 	},
 	{
@@ -32,20 +32,20 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 119919,
-		"common": 22
+		"ips": 121200,
+		"common": 26
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1469615,
-		"common": 2
+		"ips": 1468339,
+		"common": 3
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589092,
-		"common": 4
+		"ips": 9589194,
+		"common": 5
 	},
 	{
 		"name": "firehol_webserver",
@@ -60,6 +60,12 @@
 		"common": 2
 	},
 	{
+		"name": "iblocklist_isp_twc",
+		"category": "organizations",
+		"ips": 15015936,
+		"common": 1
+	},
+	{
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
@@ -69,6 +75,12 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_spyware",
+		"category": "reputation",
+		"ips": 339021,
 		"common": 1
 	},
 	{
@@ -93,13 +105,13 @@
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 24941,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 373681654,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "sorbs_web",
@@ -110,7 +122,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 25772,
-		"common": 2
+		"ips": 25642,
+		"common": 3
 	}
 ]
