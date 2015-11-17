@@ -8,7 +8,7 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680611709,
+		"ips": 680611711,
 		"common": 4
 	},
 	{
@@ -21,25 +21,25 @@
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42889974,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_ats",
 		"category": "organizations",
 		"ips": 15382,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16786,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_fsa",
 		"category": "reputation",
 		"ips": 7506,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_grm",
@@ -51,7 +51,7 @@
 		"name": "hphosts_mmt",
 		"category": "reputation",
 		"ips": 1159,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "hphosts_pha",
@@ -63,12 +63,18 @@
 		"name": "hphosts_psh",
 		"category": "reputation",
 		"ips": 4001,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_wrz",
 		"category": "reputation",
 		"ips": 863,
+		"common": 2
+	},
+	{
+		"name": "iblocklist_ads",
+		"category": "organizations",
+		"ips": 888645,
 		"common": 1
 	},
 	{
@@ -76,6 +82,18 @@
 		"category": "unroutable",
 		"ips": 666661539,
 		"common": 3
+	},
+	{
+		"name": "iblocklist_level2",
+		"category": "reputation",
+		"ips": 348710251,
+		"common": 1
+	},
+	{
+		"name": "iblocklist_yoyo_adservers",
+		"category": "organizations",
+		"ips": 12966,
+		"common": 1
 	},
 	{
 		"name": "snort_ipfilter",
@@ -93,6 +111,12 @@
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 13852,
+		"common": 1
+	},
+	{
+		"name": "yoyo_adservers",
+		"category": "organizations",
+		"ips": 13678,
 		"common": 1
 	}
 ]
