@@ -87,7 +87,7 @@
 		"name": "bambenek_tinba",
 		"category": "malware",
 		"ips": 18,
-		"common": 15
+		"common": 18
 	},
 	{
 		"name": "bambenek_volatile",
@@ -98,7 +98,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 16922,
+		"ips": 16895,
 		"common": 3
 	},
 	{
@@ -134,19 +134,19 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680594307,
+		"ips": 680594562,
 		"common": 177
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1468634,
+		"ips": 1468387,
 		"common": 9
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589012,
+		"ips": 9588995,
 		"common": 23
 	},
 	{
@@ -171,7 +171,7 @@
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16755,
-		"common": 64
+		"common": 65
 	},
 	{
 		"name": "hphosts_exp",
@@ -237,13 +237,13 @@
 		"name": "iblocklist_ads",
 		"category": "organizations",
 		"ips": 888645,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 7
+		"common": 5
 	},
 	{
 		"name": "iblocklist_edu",
@@ -261,7 +261,7 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 15
+		"common": 16
 	},
 	{
 		"name": "iblocklist_level3",
@@ -315,13 +315,19 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42673288,
-		"common": 26
+		"common": 25
 	},
 	{
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 24941,
 		"common": 8
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 351382651,
+		"common": 1
 	},
 	{
 		"name": "sorbs_web",
@@ -338,7 +344,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 25642,
+		"ips": 25559,
 		"common": 8
 	},
 	{
