@@ -38,8 +38,8 @@
 	{
 		"name": "bambenek_ramnit",
 		"category": "malware",
-		"ips": 7,
-		"common": 2
+		"ips": 9,
+		"common": 3
 	},
 	{
 		"name": "bambenek_simda",
@@ -56,7 +56,7 @@
 	{
 		"name": "bambenek_tinba",
 		"category": "malware",
-		"ips": 17,
+		"ips": 16,
 		"common": 3
 	},
 	{
@@ -68,7 +68,7 @@
 	{
 		"name": "bitcoin_blockchain_info",
 		"category": "reputation",
-		"ips": 431,
+		"ips": 430,
 		"common": 1
 	},
 	{
@@ -80,7 +80,7 @@
 	{
 		"name": "bitcoin_blockchain_info_30d",
 		"category": "reputation",
-		"ips": 5159,
+		"ips": 5158,
 		"common": 1
 	},
 	{
@@ -92,25 +92,25 @@
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 4419,
+		"ips": 4431,
 		"common": 1
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 7029,
+		"ips": 7045,
 		"common": 1
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 40783,
+		"ips": 40785,
 		"common": 1
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 15020,
+		"ips": 15016,
 		"common": 1
 	},
 	{
@@ -278,25 +278,25 @@
 	{
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
-		"ips": 393573,
+		"ips": 393583,
 		"common": 34
 	},
 	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 91136,
+		"ips": 89088,
 		"common": 3
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1391360,
+		"ips": 1390336,
 		"common": 68
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 421888,
+		"ips": 421120,
 		"common": 15
 	},
 	{
@@ -338,7 +338,7 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 81293,
+		"ips": 81291,
 		"common": 3
 	},
 	{
@@ -356,7 +356,7 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1467074,
+		"ips": 1466054,
 		"common": 188
 	},
 	{
@@ -620,7 +620,7 @@
 	{
 		"name": "ipblacklistcloud_recent_1d",
 		"category": "abuse",
-		"ips": 98,
+		"ips": 78,
 		"common": 1
 	},
 	{
@@ -632,7 +632,7 @@
 	{
 		"name": "ipblacklistcloud_recent_7d",
 		"category": "abuse",
-		"ips": 444,
+		"ips": 435,
 		"common": 3
 	},
 	{
@@ -752,19 +752,25 @@
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
-		"ips": 373681654,
+		"ips": 373681885,
 		"common": 23
+	},
+	{
+		"name": "sorbs_new_spam",
+		"category": "spam",
+		"ips": 3809,
+		"common": 1
 	},
 	{
 		"name": "sorbs_recent_spam",
 		"category": "spam",
-		"ips": 82905,
-		"common": 5
+		"ips": 82890,
+		"common": 6
 	},
 	{
 		"name": "sorbs_web",
 		"category": "spam",
-		"ips": 5663695,
+		"ips": 5663714,
 		"common": 18
 	},
 	{
