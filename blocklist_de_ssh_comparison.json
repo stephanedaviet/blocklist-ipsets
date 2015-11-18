@@ -15,19 +15,25 @@
 		"name": "bi_any_2_1d",
 		"category": "attacks",
 		"ips": 798,
-		"common": 377
+		"common": 379
 	},
 	{
 		"name": "bi_any_2_30d",
 		"category": "attacks",
 		"ips": 7658,
-		"common": 675
+		"common": 676
 	},
 	{
 		"name": "bi_any_2_7d",
 		"category": "attacks",
 		"ips": 2613,
-		"common": 644
+		"common": 646
+	},
+	{
+		"name": "bi_ftp_2_30d",
+		"category": "attacks",
+		"ips": 425,
+		"common": 1
 	},
 	{
 		"name": "bi_ssh_2_30d",
@@ -50,8 +56,8 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 27009,
-		"common": 1584
+		"ips": 26880,
+		"common": 1590
 	},
 	{
 		"name": "blocklist_de_strongips",
@@ -62,7 +68,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17545,
+		"ips": 17540,
 		"common": 48
 	},
 	{
@@ -183,7 +189,7 @@
 		"name": "dronebl_auto_botnets",
 		"category": "reputation",
 		"ips": 393675,
-		"common": 34
+		"common": 35
 	},
 	{
 		"name": "dronebl_autorooting_worms",
@@ -272,14 +278,14 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680594321,
+		"ips": 680594301,
 		"common": 48
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 120315,
-		"common": 1584
+		"ips": 120184,
+		"common": 1590
 	},
 	{
 		"name": "firehol_level3",
@@ -290,20 +296,20 @@
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589530,
+		"ips": 9589529,
 		"common": 187
 	},
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 22936,
+		"ips": 22927,
 		"common": 1
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902183,
-		"common": 90
+		"common": 92
 	},
 	{
 		"name": "gofferje_sip",
@@ -321,7 +327,7 @@
 		"name": "greensnow",
 		"category": "attacks",
 		"ips": 1031,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "haley_ssh",
@@ -333,7 +339,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 84
+		"common": 85
 	},
 	{
 		"name": "iblocklist_ciarmy_malicious",
@@ -459,13 +465,13 @@
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 351371,
-		"common": 38
+		"common": 37
 	},
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 25217,
-		"common": 7
+		"ips": 25258,
+		"common": 6
 	},
 	{
 		"name": "nt_ssh_7d",
@@ -501,7 +507,7 @@
 		"name": "openbl_360d",
 		"category": "attacks",
 		"ips": 28330,
-		"common": 463
+		"common": 464
 	},
 	{
 		"name": "openbl_60d",
@@ -525,7 +531,7 @@
 		"name": "openbl_all",
 		"category": "attacks",
 		"ips": 108865,
-		"common": 478
+		"common": 479
 	},
 	{
 		"name": "packetmail",
@@ -567,7 +573,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42685576,
-		"common": 71
+		"common": 73
 	},
 	{
 		"name": "shunlist",
