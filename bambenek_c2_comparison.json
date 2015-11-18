@@ -45,7 +45,7 @@
 		"name": "bambenek_matsnu",
 		"category": "malware",
 		"ips": 7,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "bambenek_pykspa",
@@ -74,14 +74,14 @@
 	{
 		"name": "bambenek_suppobox",
 		"category": "malware",
-		"ips": 55,
-		"common": 55
+		"ips": 56,
+		"common": 56
 	},
 	{
 		"name": "bambenek_tinba",
 		"category": "malware",
 		"ips": 18,
-		"common": 13
+		"common": 18
 	},
 	{
 		"name": "bambenek_volatile",
@@ -92,7 +92,7 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17311,
+		"ips": 17407,
 		"common": 3
 	},
 	{
@@ -122,7 +122,7 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1401600,
+		"ips": 1403136,
 		"common": 1
 	},
 	{
@@ -134,26 +134,26 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680524672,
-		"common": 173
+		"ips": 680524935,
+		"common": 180
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1465607,
+		"ips": 1467143,
 		"common": 13
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9589397,
+		"ips": 9589493,
 		"common": 25
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902163,
-		"common": 83
+		"common": 84
 	},
 	{
 		"name": "gofferje_sip",
@@ -243,7 +243,13 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 7
+		"common": 9
+	},
+	{
+		"name": "iblocklist_edu",
+		"category": "organizations",
+		"ips": 227983904,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_isp_att",
@@ -327,13 +333,19 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42685576,
-		"common": 22
+		"common": 23
 	},
 	{
 		"name": "snort_ipfilter",
 		"category": "attacks",
 		"ips": 25744,
 		"common": 11
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 373681885,
+		"common": 1
 	},
 	{
 		"name": "sorbs_web",
