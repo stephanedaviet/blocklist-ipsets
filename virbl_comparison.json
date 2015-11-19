@@ -1,26 +1,44 @@
 [
 	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 19885,
+		"common": 1
+	},
+	{
+		"name": "cleanmx_viruses",
+		"category": "spam",
+		"ips": 3910,
+		"common": 1
+	},
+	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 110883,
+		"ips": 113180,
 		"common": 12
+	},
+	{
+		"name": "firehol_level4",
+		"category": "attacks",
+		"ips": 9590867,
+		"common": 1
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902164,
+		"common": 2
+	},
+	{
+		"name": "hphosts_emd",
+		"category": "malware",
+		"ips": 16765,
 		"common": 1
 	},
 	{
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 1
-	},
-	{
-		"name": "iblocklist_isp_comcast",
-		"category": "organizations",
-		"ips": 45121536,
 		"common": 1
 	},
 	{
@@ -33,7 +51,7 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "iblocklist_rangetest",
@@ -44,7 +62,7 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 23005,
+		"ips": 22878,
 		"common": 2
 	},
 	{
@@ -57,6 +75,6 @@
 		"name": "sorbs_recent_spam",
 		"category": "spam",
 		"ips": 79011,
-		"common": 2
+		"common": 3
 	}
 ]
