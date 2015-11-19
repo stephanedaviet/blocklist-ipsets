@@ -15,19 +15,19 @@
 		"name": "bi_any_2_1d",
 		"category": "attacks",
 		"ips": 874,
-		"common": 41
+		"common": 42
 	},
 	{
 		"name": "bi_any_2_30d",
 		"category": "attacks",
 		"ips": 7675,
-		"common": 96
+		"common": 95
 	},
 	{
 		"name": "bi_any_2_7d",
 		"category": "attacks",
 		"ips": 2516,
-		"common": 81
+		"common": 80
 	},
 	{
 		"name": "bi_ftp_2_30d",
@@ -39,7 +39,7 @@
 		"name": "bi_mail_2_30d",
 		"category": "attacks",
 		"ips": 1288,
-		"common": 90
+		"common": 89
 	},
 	{
 		"name": "bi_ssh_2_30d",
@@ -51,13 +51,13 @@
 		"name": "blocklist_de",
 		"category": "attacks",
 		"ips": 24871,
-		"common": 841
+		"common": 842
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 14874,
-		"common": 843
+		"ips": 14863,
+		"common": 842
 	},
 	{
 		"name": "blocklist_net_ua",
@@ -171,13 +171,13 @@
 		"name": "dshield_30d",
 		"category": "attacks",
 		"ips": 1427456,
-		"common": 48
+		"common": 49
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
 		"ips": 435968,
-		"common": 24
+		"common": 25
 	},
 	{
 		"name": "et_block",
@@ -219,13 +219,13 @@
 		"name": "firehol_level2",
 		"category": "attacks",
 		"ips": 121165,
-		"common": 841
+		"common": 842
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1494122,
-		"common": 89
+		"common": 90
 	},
 	{
 		"name": "firehol_level4",
@@ -237,7 +237,7 @@
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902196,
-		"common": 18
+		"common": 19
 	},
 	{
 		"name": "gofferje_sip",
@@ -261,7 +261,7 @@
 		"name": "iblocklist_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 18
+		"common": 19
 	},
 	{
 		"name": "iblocklist_edu",
@@ -514,6 +514,12 @@
 		"category": "abuse",
 		"ips": 198689,
 		"common": 3
+	},
+	{
+		"name": "stopforumspam_toxic",
+		"category": "abuse",
+		"ips": 551511,
+		"common": 1
 	},
 	{
 		"name": "talosintel_ipfilter",
