@@ -3,7 +3,7 @@
 		"name": "bds_atif",
 		"category": "reputation",
 		"ips": 8686,
-		"common": 15
+		"common": 14
 	},
 	{
 		"name": "cleanmx_viruses",
@@ -15,24 +15,24 @@
 		"name": "cta_cryptowall",
 		"category": "malware",
 		"ips": 1229,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 96768,
+		"ips": 97536,
 		"common": 1
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1430016,
+		"ips": 1430528,
 		"common": 2
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 444928,
+		"ips": 444672,
 		"common": 1
 	},
 	{
@@ -50,25 +50,25 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 680508837,
-		"common": 2
+		"ips": 680508838,
+		"common": 3
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 118162,
+		"ips": 118930,
 		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1498716,
-		"common": 44
+		"ips": 1499265,
+		"common": 43
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591608,
+		"ips": 9591572,
 		"common": 7
 	},
 	{
@@ -93,7 +93,7 @@
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16755,
-		"common": 5
+		"common": 4
 	},
 	{
 		"name": "hphosts_exp",
@@ -106,6 +106,12 @@
 		"category": "reputation",
 		"ips": 7462,
 		"common": 2
+	},
+	{
+		"name": "hphosts_psh",
+		"category": "reputation",
+		"ips": 3991,
+		"common": 1
 	},
 	{
 		"name": "iblocklist_bogons",
@@ -129,31 +135,25 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 8
+		"common": 7
 	},
 	{
 		"name": "iblocklist_malc0de",
 		"category": "malware",
 		"ips": 295,
-		"common": 19
+		"common": 18
 	},
 	{
 		"name": "iblocklist_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 3
+		"common": 1
 	},
 	{
 		"name": "iblocklist_spyware",
 		"category": "reputation",
 		"ips": 339021,
 		"common": 3
-	},
-	{
-		"name": "iblocklist_yoyo_adservers",
-		"category": "organizations",
-		"ips": 12966,
-		"common": 1
 	},
 	{
 		"name": "lashback_ubl",
@@ -165,7 +165,7 @@
 		"name": "malc0de",
 		"category": "malware",
 		"ips": 375,
-		"common": 22
+		"common": 21
 	},
 	{
 		"name": "openbl_all",
@@ -194,7 +194,7 @@
 	{
 		"name": "sslbl",
 		"category": "malware",
-		"ips": 190,
+		"ips": 191,
 		"common": 1
 	},
 	{
@@ -212,13 +212,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 25902,
-		"common": 1
-	},
-	{
-		"name": "yoyo_adservers",
-		"category": "organizations",
-		"ips": 13678,
+		"ips": 25868,
 		"common": 1
 	}
 ]
