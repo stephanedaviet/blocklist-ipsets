@@ -2,14 +2,26 @@
 	{
 		"name": "bambenek_bebloh",
 		"category": "malware",
-		"ips": 4,
+		"ips": 3,
 		"common": 1
 	},
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 180,
-		"common": 18
+		"common": 16
+	},
+	{
+		"name": "bambenek_dircrypt",
+		"category": "malware",
+		"ips": 3,
+		"common": 1
+	},
+	{
+		"name": "bambenek_pykspa",
+		"category": "malware",
+		"ips": 5,
+		"common": 1
 	},
 	{
 		"name": "bambenek_simda",
@@ -33,12 +45,12 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 680508585,
-		"common": 18
+		"common": 16
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9591512,
+		"ips": 9591475,
 		"common": 1
 	},
 	{
@@ -106,12 +118,6 @@
 		"category": "unroutable",
 		"ips": 666661539,
 		"common": 3
-	},
-	{
-		"name": "iblocklist_edu",
-		"category": "organizations",
-		"ips": 227983904,
-		"common": 1
 	},
 	{
 		"name": "iblocklist_isp_suddenlink",
