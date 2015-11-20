@@ -50,7 +50,7 @@
 	{
 		"name": "blocklist_de_ftp",
 		"category": "attacks",
-		"ips": 522,
+		"ips": 523,
 		"common": 24
 	},
 	{
@@ -62,8 +62,8 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17466,
-		"common": 103
+		"ips": 17460,
+		"common": 104
 	},
 	{
 		"name": "bm_tor",
@@ -242,8 +242,8 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 81145,
-		"common": 68
+		"ips": 81133,
+		"common": 72
 	},
 	{
 		"name": "firehol_level1",
@@ -266,14 +266,14 @@
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9587751,
-		"common": 191
+		"ips": 9587746,
+		"common": 192
 	},
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 22705,
-		"common": 63
+		"ips": 22694,
+		"common": 66
 	},
 	{
 		"name": "firehol_webserver",
@@ -452,7 +452,7 @@
 	{
 		"name": "iw_spamlist",
 		"category": "spam",
-		"ips": 2077,
+		"ips": 2070,
 		"common": 2
 	},
 	{
@@ -682,6 +682,30 @@
 		"category": "reputation",
 		"ips": 22515968,
 		"common": 1
+	},
+	{
+		"name": "sslproxies",
+		"category": "anonymizers",
+		"ips": 27,
+		"common": 3
+	},
+	{
+		"name": "sslproxies_1d",
+		"category": "anonymizers",
+		"ips": 27,
+		"common": 3
+	},
+	{
+		"name": "sslproxies_30d",
+		"category": "anonymizers",
+		"ips": 910,
+		"common": 3
+	},
+	{
+		"name": "sslproxies_7d",
+		"category": "anonymizers",
+		"ips": 59,
+		"common": 3
 	},
 	{
 		"name": "stopforumspam",
