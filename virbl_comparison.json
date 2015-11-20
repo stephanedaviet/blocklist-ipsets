@@ -12,10 +12,16 @@
 		"common": 1
 	},
 	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 680508600,
+		"common": 1
+	},
+	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 116266,
-		"common": 12
+		"ips": 116268,
+		"common": 14
 	},
 	{
 		"name": "firehol_level4",
@@ -27,7 +33,7 @@
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902164,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "hphosts_emd",
@@ -42,6 +48,12 @@
 		"common": 1
 	},
 	{
+		"name": "iblocklist_isp_comcast",
+		"category": "organizations",
+		"ips": 45121536,
+		"common": 1
+	},
+	{
 		"name": "iblocklist_level1",
 		"category": "reputation",
 		"ips": 764928098,
@@ -51,7 +63,7 @@
 		"name": "iblocklist_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_rangetest",
@@ -69,7 +81,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42685576,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "sorbs_new_spam",
@@ -82,5 +94,11 @@
 		"category": "spam",
 		"ips": 78856,
 		"common": 4
+	},
+	{
+		"name": "spamhaus_edrop",
+		"category": "reputation",
+		"ips": 787200,
+		"common": 1
 	}
 ]
