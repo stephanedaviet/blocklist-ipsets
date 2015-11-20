@@ -3,12 +3,18 @@
 		"name": "blocklist_net_ua",
 		"category": "abuse",
 		"ips": 19004,
-		"common": 1
+		"common": 3
 	},
 	{
 		"name": "cleanmx_viruses",
 		"category": "spam",
-		"ips": 3965,
+		"ips": 3781,
+		"common": 1
+	},
+	{
+		"name": "cybercrime",
+		"category": "malware",
+		"ips": 5612,
 		"common": 1
 	},
 	{
@@ -26,32 +32,32 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 116056,
-		"common": 19
+		"ips": 116013,
+		"common": 22
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
 		"ips": 1499965,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9590064,
-		"common": 1
+		"ips": 9589881,
+		"common": 4
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
 		"ips": 42902164,
-		"common": 4
+		"common": 7
 	},
 	{
 		"name": "hphosts_emd",
 		"category": "malware",
 		"ips": 16765,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_bogons",
@@ -81,13 +87,13 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "iblocklist_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "lashback_ubl",
@@ -99,7 +105,13 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42685576,
-		"common": 3
+		"common": 5
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 27641,
+		"common": 1
 	},
 	{
 		"name": "sorbs_new_spam",
@@ -117,6 +129,12 @@
 		"name": "spamhaus_edrop",
 		"category": "reputation",
 		"ips": 787200,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 28460,
 		"common": 1
 	}
 ]
