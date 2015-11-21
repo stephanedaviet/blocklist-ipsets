@@ -2,37 +2,37 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 17901,
+		"ips": 17987,
 		"common": 2
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 1443328,
+		"ips": 1444096,
 		"common": 1
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 128149,
-		"common": 14
+		"ips": 128411,
+		"common": 15
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 1513156,
-		"common": 1
+		"ips": 1513753,
+		"common": 2
 	},
 	{
 		"name": "firehol_level4",
 		"category": "attacks",
-		"ips": 9588785,
+		"ips": 9588873,
 		"common": 2
 	},
 	{
 		"name": "firehol_webserver",
 		"category": "attacks",
-		"ips": 42905235,
+		"ips": 42905063,
 		"common": 4
 	},
 	{
@@ -63,12 +63,24 @@
 		"name": "iblocklist_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 42688136,
 		"common": 4
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 30744,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 32573,
+		"common": 1
 	}
 ]
